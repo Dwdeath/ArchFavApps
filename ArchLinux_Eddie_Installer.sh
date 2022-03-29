@@ -3,16 +3,18 @@ echo "#########################################"
 echo "#       Eddie's Fav Apps Installer      #"
 echo "#########################################"
 
-# update the system
+# update the system and install keyring to fix repo access
 sudo pacman -Syu --quiet --noconfirm
+sudo pacman -Syu archlinux-keyring --quiet --noconfirm
 
 # create a work directory
 #sudo mkdir ~/tempfiles && cd ~/tempfiles
 
 # install yup
-sudo git clone https://aur.archlinux.org/yup-bin.git
-cd yup-bin
-makepkg -si
+sudo pacman yup-bin -Syu --quiet --noconfirm
+#git clone https://aur.archlinux.org/yup-bin.git
+#cd yup-bin
+#makepkg -si
 
 # install the apps from a list
 yup -Y ./Eeyup.Yupfile
