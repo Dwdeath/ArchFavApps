@@ -1,0 +1,83 @@
+// Name Version IsAur
+
+//add leatest aur to get leatest
+
+// system
+intel-ucode-git leatest aur
+xf86-video-intel-git leatest aur
+yup-bin leatest aur
+rtl88x2bu-cilynx-dkms-git leatest aur
+timeshift leatest aur
+gparted leatest aur
+boxes leatest aur
+
+// tools
+ark leatest aur
+rsync leatest aur
+grsync leatest aur
+gpu-viewer leatest aur
+vmware-workstation leatest aur
+btop leatest aur
+cpu-x leatest aur
+caffeine-ng leatest aur
+
+// office
+onlyoffice-bin leatest aur
+notepadqq leatest aur
+
+// dev
+android-sdk-platform-tools leatest aur
+godot leatest aur
+
+// Graphic design
+blender leatest aur
+krita leatest aur
+
+// media
+dms leatest aur
+mpc-qt leatest aur
+xfmpc leatest aur
+
+// games
+wireshark-qt leatest aur
+rum leatest aur
+lutris leatest aur
+ultimmc-bin leatest aur
+// fun
+hollywood leatest aur
+cmatrix leatest aur
+ruffle leatest aur
+cava leatest aur
+notflix-git leatest aur
+
+// web
+firedragon leatest aur
+wget leatest aur
+protonup-qt leatest aur
+steam-tui leatest aur
+gamehub leatest aur
+qbittorrent leatest aur
+ferdi leatest aur
+
+// communication
+droidcam leatest aur
+
+// package managers
+bauh leatest aur
+discover leatest aur
+octopi leatest aur
+appimagelauncher leatest aur
+aura-bin leatest aur
+flatapk leatest aur
+
+// managers
+bitwarden leatest aur
+
+// Themes
+variety leatest aur
+
+// Virtualization
+wine leatest aur
+wine-gecko leatest aur
+wine-mono leatest aur
+rumtricks leatest aur
