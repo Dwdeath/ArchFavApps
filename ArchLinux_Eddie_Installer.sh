@@ -7,16 +7,17 @@ echo "#########################################"
 cd ..
 
 # update the system
-#sudo pacman -Syu
+sudo rm /var/lib/pacman/db.lck --noconfirm
+sudo pacman -Syu --noconfirm
 
 # install keyring to fix the repo access bug
-#sudo pacman -S archlinux-keyring
+sudo pacman -S archlinux-keyring --noconfirm
 
 # install yup
-#sudo -Syu pacman yup-bin --quiet --noconfirm
-git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin
-makepkg -si
-cd ..
+sudo -Syu pacman yup-bin --noconfirm
+#git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin
+#makepkg -si
+#cd ..
 
 # install the apps from a list
 cd Eddie_Archlinux_Customized
