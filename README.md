@@ -6,6 +6,8 @@ how to use:
 as privilaged user in any ArchLinux enter the command:
 
 ```
+sudo mkdir ~/Desktop/tempgit
+cd ~/Desktop/tempgit
 git clone https://github.com/Dwdeath/Eddie_Archlinux_Customized.git
 cd Eddie_Archlinux_Customized
 sh ./ArchLinux_Eddie_Installer.sh
