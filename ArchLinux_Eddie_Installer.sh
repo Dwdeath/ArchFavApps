@@ -11,7 +11,7 @@ sudo pacman -Syu archlinux-keyring --quiet --noconfirm
 #sudo mkdir ~/tempfiles && cd ~/tempfiles
 
 # install yup
-sudo pacman yup-bin -Syu --quiet --noconfirm
+sudo -Syu pacman yup-bin --quiet --noconfirm
 #git clone https://aur.archlinux.org/yup-bin.git
 #cd yup-bin
 #makepkg -si
