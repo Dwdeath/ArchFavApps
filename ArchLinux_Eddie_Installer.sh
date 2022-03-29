@@ -7,13 +7,13 @@ echo "#########################################"
 sudo pacman -Syu --quiet --noconfirm
 
 # install paru as it seems to work better that pacman
-sudo pacman -Syu paru --quiet --noconfirm
+sudo pacman -S paru --quiet --noconfirm
 
 # install keyring to fix the repo access bug
 #paru archlinux-keyring --quiet --noconfirm
 
 # install yup
-paru yup-bin --quiet --noconfirm
+paru -S yup-bin
 
 # install the apps from a list
 yup -Y ./Eddie_Archlinux_Customized/Eeyup.Yupfile
