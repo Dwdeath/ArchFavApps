@@ -6,7 +6,6 @@ how to use:
 as privilaged user in any ArchLinux enter the command:
 
 ```
-cd ~/Desktop
 sudo git clone https://github.com/Dwdeath/Eddie_Archlinux_Customized.git
 cd Eddie_Archlinux_Customized
 sh ./ArchLinux_Eddie_Installer.sh
