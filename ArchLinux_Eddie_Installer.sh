@@ -13,10 +13,10 @@ sudo pacman -S paru --quiet --noconfirm
 #paru archlinux-keyring --quiet --noconfirm
 
 # install yup
-paru -S yup-bin
+paru -S yup-bin --quiet --noconfirm
 
 # install the apps from a list
-yup -Y ./Eddie_Archlinux_Customized/Eeyup.Yupfile
+sudo yup -Y /Eddie_Archlinux_Customized/Eeyup.Yupfile
 
 # install apps not on the list
 # install cthulhu
@@ -25,7 +25,7 @@ sudo chmod +x /usr/local/bin/cthulhu
 
 # remove temp dir
 cd ..
-sudo rmdir Eddie_Archlinux_Customized
+sudo rmdir /Eddie_Archlinux_Customized
 
 # reboots the system
-shutdown
+#shutdown
