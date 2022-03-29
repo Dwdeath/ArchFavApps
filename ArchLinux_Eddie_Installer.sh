@@ -31,7 +31,7 @@ sudo chmod +x /usr/local/bin/cthulhu
 
 # remove temp dir
 cd ~/Desktop
-sudo rm tempgit
+sudo rmdir tempgit
 
 # reboots the system
 shutdown
