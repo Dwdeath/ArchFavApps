@@ -15,7 +15,7 @@ cd ~/Desktop/tempgit/tempfiles
 
 # install yup
 #sudo -Syu pacman yup-bin --quiet --noconfirm
-cd ~/Desktop/tempgit/tempfiles
+cd ~/Desktop/tempgit/tempfiles/
 git clone https://aur.archlinux.org/yup-bin.git
 cd yup-bin
 makepkg -si
