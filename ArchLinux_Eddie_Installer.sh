@@ -7,10 +7,12 @@ echo "#########################################"
 sudo pacman -Syu --quiet --noconfirm
 
 # create a work directory
-sudo mkdir ~/tempfiles && cd ~/tempfiles
+#sudo mkdir ~/tempfiles && cd ~/tempfiles
 
 # install yup
-git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin && makepkg -si
+sudo git clone https://aur.archlinux.org/yup-bin.git
+cd yup-bin
+sudo makepkg -si
 
 # install the apps from a list
 yup -Y ./Eeyup.Yupfile
@@ -21,7 +23,7 @@ sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/
 sudo chmod +x /usr/local/bin/cthulhu
 
 # remove the work directory
-sudo rmdir ~/tempfiles
+#sudo rmdir ~/tempfiles
 
 # reboots the system
 sudo shutdown
