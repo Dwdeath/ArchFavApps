@@ -7,7 +7,7 @@ echo "#########################################"
 cd ..
 
 # update the system
-sudo pacman -Syu --quiet --noconfirm
+sudo pacman -Syu
 
 # install keyring to fix the repo access bug
 #sudo pacman -S archlinux-keyring
