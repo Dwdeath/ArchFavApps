@@ -4,8 +4,6 @@
 
 // system
 archlinux-keyring leatest aur
-intel-ucode-git leatest aur
-xf86-video-intel-git leatest aur
 yup-bin leatest aur
 rtl88x2bu-cilynx-dkms-git leatest aur
 timeshift leatest aur
