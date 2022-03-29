@@ -16,7 +16,7 @@ sudo pacman -S paru --quiet --noconfirm
 paru -S yup-bin --quiet --noconfirm
 
 # install the apps from a list
-sudo yup -Y Eddie_Archlinux_Customized/Eeyup.Yupfile
+yup -Y Eddie_Archlinux_Customized/Eeyup.Yupfile
 
 # install apps not on the list
 # install cthulhu
