@@ -9,20 +9,16 @@ sudo pacman -Syu --quiet --noconfirm
 # install keyring to fix the repo access bug
 #sudo pacman -S archlinux-keyring
 
-# create a work directory
-sudo mkdir ~/Desktop/tempgit/tempfiles
-cd ~/Desktop/tempgit/tempfiles
-
 # install yup
 #sudo -Syu pacman yup-bin --quiet --noconfirm
-cd ~/Desktop/tempgit/tempfiles/
-git clone https://aur.archlinux.org/yup-bin.git
-cd yup-bin
+git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin
 makepkg -si
+cd ..
 
 # install the apps from a list
-cd ~/Desktop/tempgit/Eddie_Archlinux_Customized/
+cd Eddie_Archlinux_Customized
 yup -Y ./Eeyup.Yupfile
+cd ..
 
 # install apps not on the list
 # install cthulhu
@@ -30,8 +26,8 @@ sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/
 sudo chmod +x /usr/local/bin/cthulhu
 
 # remove temp dir
-cd ~/Desktop
-sudo rmdir tempgit
+sudo rmdir Eddie_Archlinux_Customized
+sudo rmdir yup-bin
 
 # reboots the system
 shutdown
