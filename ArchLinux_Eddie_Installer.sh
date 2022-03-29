@@ -12,7 +12,7 @@ sudo pacman -Syu --quiet --noconfirm
 # install yup
 sudo git clone https://aur.archlinux.org/yup-bin.git
 cd yup-bin
-sudo makepkg -si
+makepkg -si
 
 # install the apps from a list
 yup -Y ./Eeyup.Yupfile
