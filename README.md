@@ -6,7 +6,8 @@ how to use:
 as privilaged user in any ArchLinux enter the command:
 
 ```
-#sudo pacman -Syu
+sudo pacman !!
+sudo pacman -Syyuu --noconfirm
 sudo git clone https://github.com/Dwdeath/Eddie_Archlinux_Customized.git
 cd Eddie_Archlinux_Customized
 sh ./ArchLinux_Eddie_Installer.sh
