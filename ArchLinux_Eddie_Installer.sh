@@ -34,4 +34,4 @@ sudo rmdir Eddie_Archlinux_Customized
 sudo rmdir yup-bin
 
 # reboots the system
-shutdown
+#shutdown
