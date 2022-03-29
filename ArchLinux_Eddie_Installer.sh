@@ -14,7 +14,7 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S archlinux-keyring --noconfirm
 
 # install yup
-sudo -Syu pacman yup-bin --noconfirm
+sudo pacman -Syu yup-bin --noconfirm
 #git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin
 #makepkg -si
 #cd ..
