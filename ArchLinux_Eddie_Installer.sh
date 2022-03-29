@@ -28,4 +28,4 @@ cd ..
 sudo rmdir Eddie_Archlinux_Customized
 
 # reboots the system
-#shutdown
+shutdown
