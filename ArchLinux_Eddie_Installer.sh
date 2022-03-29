@@ -3,26 +3,20 @@ echo "#########################################"
 echo "#       Eddie's Fav Apps Installer      #"
 echo "#########################################"
 
-# edits the currest folder
-cd ..
-
 # update the system
-#sudo rm /var/lib/pacman/db.lck
-#sudo pacman -Syu #--noconfirm
+sudo pacman -Syu --quiet --noconfirm
+
+# install paru as it seems to work better that pacman
+sudo pacman -Syu paru --quiet --noconfirm
 
 # install keyring to fix the repo access bug
-sudo pacman -Syu archlinux-keyring #--noconfirm
+#paru archlinux-keyring --quiet --noconfirm
 
 # install yup
-sudo pacman -Syu yup-bin #--noconfirm
-#git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin
-#makepkg -si
-#cd ..
+paru yup-bin --quiet --noconfirm
 
 # install the apps from a list
-cd Eddie_Archlinux_Customized
-yup -Y ./Eeyup.Yupfile
-cd ..
+yup -Y ./Eddie_Archlinux_Customized/Eeyup.Yupfile
 
 # install apps not on the list
 # install cthulhu
@@ -30,8 +24,8 @@ sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/
 sudo chmod +x /usr/local/bin/cthulhu
 
 # remove temp dir
+cd ..
 sudo rmdir Eddie_Archlinux_Customized
-sudo rmdir yup-bin
 
 # reboots the system
 #shutdown
