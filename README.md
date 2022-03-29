@@ -8,7 +8,7 @@ as privilaged user in any ArchLinux enter the command:
 ```
 sudo git clone https://github.com/Dwdeath/Eddie_Archlinux_Customized.git
 cd Eddie_Archlinux_Customized
-sh ./ArchLinux_Eddie_Installer.sh
+sh Eddie_Archlinux_Customized/ArchLinux_Eddie_Installer.sh
 ```
 and enter what is asks.
 
