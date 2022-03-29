@@ -28,4 +28,4 @@ sudo chmod +x /usr/local/bin/cthulhu
 #sudo rmdir ~/tempfiles
 
 # reboots the system
-sudo shutdown
+shutdown
