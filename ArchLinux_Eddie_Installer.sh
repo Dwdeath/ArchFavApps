@@ -3,6 +3,9 @@ echo "#########################################"
 echo "#       Eddie's Fav Apps Installer      #"
 echo "#########################################"
 
+# edits the currest folder
+cd ..
+
 # update the system
 sudo pacman -Syu --quiet --noconfirm
 
