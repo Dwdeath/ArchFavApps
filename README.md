@@ -8,7 +8,7 @@ as privilaged user in any ArchLinux enter the command:
 ```
 cd ~/Desktop
 sudo mkdir tempgit
-cd ~/Desktop/tempgit/
+cd tempgit
 git clone https://github.com/Dwdeath/Eddie_Archlinux_Customized.git
 cd Eddie_Archlinux_Customized
 sh ./ArchLinux_Eddie_Installer.sh
