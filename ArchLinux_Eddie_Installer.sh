@@ -8,13 +8,13 @@ cd ..
 
 # update the system
 #sudo rm /var/lib/pacman/db.lck
-sudo pacman -Syu --noconfirm
+#sudo pacman -Syu #--noconfirm
 
 # install keyring to fix the repo access bug
-sudo pacman -Syu archlinux-keyring --noconfirm
+sudo pacman -Syu archlinux-keyring #--noconfirm
 
 # install yup
-sudo pacman -Syu yup-bin --noconfirm
+sudo pacman -Syu yup-bin #--noconfirm
 #git clone https://aur.archlinux.org/yup-bin.git && cd yup-bin
 #makepkg -si
 #cd ..
