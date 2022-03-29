@@ -14,8 +14,8 @@ sudo pacman -S paru --quiet --noconfirm
 
 # install apps not on the list
 # install cthulhu
-sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/cthulhu" -o /usr/local/bin/cthulhu
-sudo chmod +x /usr/local/bin/cthulhu
+#sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/cthulhu" -o /usr/local/bin/cthulhu
+#sudo chmod +x /usr/local/bin/cthulhu
 
 # install keyring to fix the repo access bug
 #paru archlinux-keyring --quiet --noconfirm
