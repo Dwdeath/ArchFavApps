@@ -7,7 +7,7 @@ echo "#########################################"
 sudo pacman -Syu --quiet --noconfirm
 
 # install keyring to fix the repo access bug
-sudo pacman -S archlinux-keyring --quiet --noconfirm
+#sudo pacman -S archlinux-keyring
 
 # create a work directory
 sudo mkdir ~/Desktop/tempgit/tempfiles
