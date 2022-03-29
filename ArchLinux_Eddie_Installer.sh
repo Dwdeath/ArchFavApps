@@ -7,7 +7,7 @@ echo "#########################################"
 cd ..
 
 # update the system
-sudo rm /var/lib/pacman/db.lck --noconfirm
+sudo rm /var/lib/pacman/db.lck
 sudo pacman -Syu --noconfirm
 
 # install keyring to fix the repo access bug
