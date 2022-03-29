@@ -4,7 +4,7 @@ echo "#       Eddie's Fav Apps Installer      #"
 echo "#########################################"
 
 # enter folder
-cd Eddie_Archlinux_Customized
+#cd Eddie_Archlinux_Customized
 
 # update the system
 sudo pacman -Syu --quiet --noconfirm
