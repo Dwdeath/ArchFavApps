@@ -11,7 +11,7 @@ cd ..
 sudo pacman -Syu --noconfirm
 
 # install keyring to fix the repo access bug
-sudo pacman -S archlinux-keyring --noconfirm
+sudo pacman -Syu archlinux-keyring --noconfirm
 
 # install yup
 sudo pacman -Syu yup-bin --noconfirm
