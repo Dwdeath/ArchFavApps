@@ -16,12 +16,12 @@ sudo pacman -S paru --quiet --noconfirm
 paru -S yup-bin --quiet --noconfirm
 
 # install the apps from a list
-yup -Y Eddie_Archlinux_Customized/Eeyup.Yupfile
+yup -Y Eddie_Archlinux_Customized/Eeyup.Yupfile --quiet --noconfirm
 
 # install apps not on the list
 # install cthulhu
-sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/cthulhu" -o /usr/local/bin/cthulhu
-sudo chmod +x /usr/local/bin/cthulhu
+#sudo curl -sL "https://raw.githubusercontent.com/trianglecirclexyz/cthulhu/main/cthulhu" -o /usr/local/bin/cthulhu
+#sudo chmod +x /usr/local/bin/cthulhu
 
 # remove temp dir
 sudo rmdir Eddie_Archlinux_Customized
