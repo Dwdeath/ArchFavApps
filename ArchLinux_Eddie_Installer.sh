@@ -24,7 +24,7 @@ sudo pacman -S paru --quiet --noconfirm
 #paru -S yup-bin --quiet --noconfirm
 
 # install the apps from a list
-sudo sh ./install_test.sh
+sudo sh ./install_test.sh --noconfirm
 
 # remove temp dir
 cd ..
