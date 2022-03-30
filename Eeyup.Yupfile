@@ -62,12 +62,14 @@ ferdi leatest aur
 droidcam leatest aur
 
 // package managers
+pikaur-bin leatest aur
 bauh leatest aur
 discover leatest aur
 octopi leatest aur
 appimagelauncher leatest aur
 aura-bin leatest aur
 flatapk leatest aur
+paru leatest aur
 
 // managers
 bitwarden leatest aur
