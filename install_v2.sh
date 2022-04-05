@@ -35,14 +35,15 @@ sudo pacman -S krita --needed --noconfirm
 sudo pacman -S dms --needed --noconfirm
 sudo pacman -S mpc-qt --needed --noconfirm
 #sudo pacman -S xfmpc --needed --noconfirm
-sudo pacman -S qmmp --needed --noconfirm
+#sudo pacman -S dragon --needed --noconfirm
 
 #// games
 sudo pacman -S wireshark-qt --needed --noconfirm
 sudo pacman -S rum --needed --noconfirm
 sudo pacman -S lutris --needed --noconfirm
 sudo pacman -S ultimmc-bin --needed --noconfirm
-sudo pacman -S
+sudo pacman -S wesnoth --needed --noconfirm
+sudo pacman -S airshipper --needed --noconfirm
 
 #// fun
 sudo pacman -S hollywood --needed --noconfirm
