@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 #// system
-sudo pacman -S ng --needed --noconfirm
+sudo pacman -S plasma-meta --needed --noconfirm
+sudo pacman -S kde-applications --needed --noconfirm
+sudo pacman -S archlinux-keyring --needed --noconfirm
 sudo pacman -S rtl88x2bu-cilynx-dkms-git --needed --noconfirm
 sudo pacman -S timeshift --needed --noconfirm
 sudo pacman -S gparted --needed --noconfirm
@@ -61,7 +63,8 @@ sudo pacman -S ferdi --needed --noconfirm
 sudo pacman -S droidcam --needed --noconfirm
 
 #// package managers
-sudo pacman -S yup-bin --needed --noconfirm
+sudo pacman -S paru --needed --noconfirm
+sudo pacman -S yay --needed --noconfirm
 sudo pacman -S pikaur --needed --noconfirm
 sudo pacman -S bauh --needed --noconfirm
 sudo pacman -S discover --needed --noconfirm
@@ -69,7 +72,6 @@ sudo pacman -S octopi --needed --noconfirm
 sudo pacman -S appimagelauncher --needed --noconfirm
 sudo pacman -S aura-bin --needed --noconfirm
 sudo pacman -S flatapk --needed --noconfirm
-sudo pacman -S paru --needed --noconfirm
 
 #// managers
 sudo pacman -S bitwarden --needed --noconfirm
