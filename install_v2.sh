@@ -34,6 +34,7 @@ sudo pacman -S krita --needed --noconfirm
 #// media
 sudo pacman -S dms --needed --noconfirm
 sudo pacman -S mpc-qt --needed --noconfirm
+sudo pacman -S elisa --needed --noconfirm
 #sudo pacman -S xfmpc --needed --noconfirm
 #sudo pacman -S dragon --needed --noconfirm
 
