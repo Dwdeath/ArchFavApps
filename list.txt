@@ -1,0 +1,94 @@
+
+// system
+#archlinux-keyring 
+#rtl88x2bu-cilynx-dkms-git 
+#timeshift 
+#gparted 
+#boxes 
+
+
+// tools
+#ark 
+#rsync 
+#grsync 
+#gpu-viewer 
+#vmware-workstation 
+#btop 
+#cpu-x 
+#caffeine-ng 
+
+
+// office
+#onlyoffice-bin 
+#notepadqq 
+
+
+// dev
+#android-sdk-platform-tools 
+#godot 
+
+
+// Graphic design
+#blender 
+#krita 
+
+
+// media
+#dms 
+#mpc-qt 
+#xfmpc 
+
+
+// games
+#wireshark-qt 
+#rum 
+#lutris 
+#ultimmc-bin 
+
+#// fun
+#hollywood 
+#cmatrix 
+#ruffle 
+#cava 
+#notflix-git 
+
+
+// web
+#firedragon 
+#wget 
+#protonup-qt 
+#steam-tui 
+#gamehub 
+#qbittorrent 
+#ferdi 
+
+
+// communication
+#droidcam 
+
+
+// package managers
+#yup-bin 
+#pikaur 
+#bauh 
+#discover 
+#octopi 
+#appimagelauncher 
+#aura-bin 
+#flatapk 
+#paru 
+
+
+// managers
+#bitwarden 
+
+
+// Themes
+#variety 
+
+
+// Virtualization
+#wine 
+#wine-gecko 
+#wine-mono 
+#rumtricks 
