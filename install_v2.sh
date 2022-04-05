@@ -51,6 +51,7 @@ sudo pacman -S lutris --needed --noconfirm
 sudo pacman -S ultimmc-bin --needed --noconfirm
 sudo pacman -S wesnoth --needed --noconfirm
 sudo pacman -S airshipper --needed --noconfirm
+sudo pacman -S open
 
 #// fun
 sudo pacman -S hollywood --needed --noconfirm
@@ -89,10 +90,12 @@ sudo pacman -S bitwarden --needed --noconfirm
 sudo pacman -S variety --needed --noconfirm
 
 #// Virtualization
-sudo pacman -S wine --needed --noconfirm
-sudo pacman -S wine-gecko --needed --noconfirm
-sudo pacman -S wine-mono --needed --noconfirm
+sudo pacman -S wine-meta --needed --noconfirm
+#sudo pacman -S wine --needed --noconfirm
+#sudo pacman -S wine-gecko --needed --noconfirm
+#sudo pacman -S wine-mono --needed --noconfirm
 sudo pacman -S rumtricks --needed --noconfirm
+sudo pacman -S vmware-workstation --needed --noconfirm
 
 #//shut the system down when finished
 shutdown now
