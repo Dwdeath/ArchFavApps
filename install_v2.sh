@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#//Update the system
+sudo pacman -Syu
+
 #// system
 sudo pacman -S plasma-meta --needed --noconfirm
 sudo pacman -S kde-applications --needed --noconfirm
@@ -90,3 +93,6 @@ sudo pacman -S wine --needed --noconfirm
 sudo pacman -S wine-gecko --needed --noconfirm
 sudo pacman -S wine-mono --needed --noconfirm
 sudo pacman -S rumtricks --needed --noconfirm
+
+#//shut the system down when finished
+shutdown now
