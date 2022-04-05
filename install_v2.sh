@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #//Update the system
-sudo pacman -Syu
+sudo pacman -Syu --needed --noconfirm
 
 #// system
 sudo pacman -S plasma-meta --needed --noconfirm
