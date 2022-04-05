@@ -15,8 +15,8 @@ sudo pacman -S kcalc --needed --noconfirm
 sudo pacman -S kdegraphics-thumbnailers --needed --noconfirm
 sudo pacman -S kompare --needed --noconfirm
 sudo pacman -S konsole --needed --noconfirm
-sudo pacman -S ktorrent --needed --noconfirm
-sudo pacman -S okular --needed --noconfirm
+#sudo pacman -S ktorrent --needed --noconfirm
+#sudo pacman -S okular --needed --noconfirm
 sudo pacman -S spectacle --needed --noconfirm
 sudo pacman -S bluedevil --needed --noconfirm
 sudo pacman -S breeze-gtk --needed --noconfirm
@@ -40,7 +40,7 @@ sudo pacman -S archlinux-keyring --needed --noconfirm
 sudo pacman -S rtl88x2bu-cilynx-dkms-git --needed --noconfirm
 sudo pacman -S timeshift --needed --noconfirm
 sudo pacman -S gparted --needed --noconfirm
-sudo pacman -S boxes --needed --noconfirm
+#sudo pacman -S boxes --needed --noconfirm
 
 #// tools
 sudo pacman -S ark --needed --noconfirm
@@ -53,7 +53,7 @@ sudo pacman -S caffeine-ng --needed --noconfirm
 
 #// office
 sudo pacman -S onlyoffice-bin --needed --noconfirm
-sudo pacman -S notepadqq --needed --noconfirm
+#sudo pacman -S notepadqq --needed --noconfirm
 
 #// dev
 sudo pacman -S android-sdk-platform-tools --needed --noconfirm
@@ -65,7 +65,8 @@ sudo pacman -S krita --needed --noconfirm
 
 #// media
 sudo pacman -S dms --needed --noconfirm
-sudo pacman -S mpc-qt --needed --noconfirm
+sudo pacman -S mpc-qt-git
+#sudo pacman -S mpc-qt --needed --noconfirm
 sudo pacman -S audacious --needed --noconfirm
 #sudo pacman -S elisa --needed --noconfirm
 #sudo pacman -S qmmp --needed --noconfirm
@@ -77,14 +78,13 @@ sudo pacman -S lutris --needed --noconfirm
 sudo pacman -S ultimmc-bin --needed --noconfirm
 sudo pacman -S wesnoth --needed --noconfirm
 sudo pacman -S airshipper --needed --noconfirm
-sudo pacman -S open
 
 #// fun
 sudo pacman -S hollywood --needed --noconfirm
-sudo pacman -S cmatrix --needed --noconfirm
+#sudo pacman -S cmatrix --needed --noconfirm
 sudo pacman -S ruffle --needed --noconfirm
 sudo pacman -S cava --needed --noconfirm
-sudo pacman -S notflix-git --needed --noconfirm
+#sudo pacman -S notflix-git --needed --noconfirm
 
 #// web
 sudo pacman -S firedragon --needed --noconfirm
@@ -110,7 +110,7 @@ sudo pacman -S aura-bin --needed --noconfirm
 sudo pacman -S flatapk --needed --noconfirm
 
 #// managers
-sudo pacman -S bitwarden --needed --noconfirm
+#sudo pacman -S bitwarden --needed --noconfirm
 
 #// Themes
 sudo pacman -S variety --needed --noconfirm
