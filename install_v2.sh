@@ -20,7 +20,6 @@ sudo pacman -S ark --needed --noconfirm
 sudo pacman -S rsync --needed --noconfirm
 sudo pacman -S grsync --needed --noconfirm
 sudo pacman -S gpu-viewer --needed --noconfirm
-sudo pacman -S vmware-workstation --needed --noconfirm
 sudo pacman -S btop --needed --noconfirm
 sudo pacman -S cpu-x --needed --noconfirm
 sudo pacman -S caffeine-ng --needed --noconfirm
