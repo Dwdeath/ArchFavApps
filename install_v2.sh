@@ -65,8 +65,8 @@ sudo pacman -S krita --needed --noconfirm
 
 #// media
 sudo pacman -S dms --needed --noconfirm
-sudo pacman -S mpc-qt-git
-#sudo pacman -S mpc-qt --needed --noconfirm
+#sudo pacman -S mpc-qt-git --needed --noconfirm
+sudo pacman -S smplayer-qt4 --needed --noconfirm
 sudo pacman -S audacious --needed --noconfirm
 #sudo pacman -S elisa --needed --noconfirm
 #sudo pacman -S qmmp --needed --noconfirm
