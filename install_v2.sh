@@ -114,6 +114,7 @@ sudo pacman -S bitwarden --needed --noconfirm
 
 #// Themes
 sudo pacman -S variety --needed --noconfirm
+sudo pacman -S latte-dock --needed --noconfirm
 
 #// Virtualization
 sudo pacman -S wine-meta --needed --noconfirm
