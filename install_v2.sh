@@ -3,6 +3,7 @@
 #// system
 sudo pacman -S plasma-meta --needed --noconfirm
 sudo pacman -S kde-applications --needed --noconfirm
+
 sudo pacman -S archlinux-keyring --needed --noconfirm
 sudo pacman -S rtl88x2bu-cilynx-dkms-git --needed --noconfirm
 sudo pacman -S timeshift --needed --noconfirm
