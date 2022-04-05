@@ -5,7 +5,34 @@ sudo pacman -Syu --needed --noconfirm
 
 #// system
 sudo pacman -S plasma-meta --needed --noconfirm
-sudo pacman -S kde-applications --needed --noconfirm
+#sudo pacman -S kde-applications --needed --noconfirm
+sudo pacman -S ark --needed --noconfirm
+sudo pacman -S dolphin --needed --noconfirm
+sudo pacman -S ffmpegthumbs --needed --noconfirm
+sudo pacman -S kamoso --needed --noconfirm
+sudo pacman -S kate --needed --noconfirm
+sudo pacman -S kcalc --needed --noconfirm
+sudo pacman -S kdegraphics-thumbnailers --needed --noconfirm
+sudo pacman -S kompare --needed --noconfirm
+sudo pacman -S konsole --needed --noconfirm
+sudo pacman -S ktorrent --needed --noconfirm
+sudo pacman -S okular --needed --noconfirm
+sudo pacman -S spectacle --needed --noconfirm
+sudo pacman -S bluedevil --needed --noconfirm
+sudo pacman -S breeze-gtk --needed --noconfirm
+sudo pacman -S kde-gtk-config --needed --noconfirm
+sudo pacman -S khotkeys --needed --noconfirm
+sudo pacman -S kinfocenter --needed --noconfirm
+sudo pacman -S kscreen --needed --noconfirm
+sudo pacman -S ksshaskpass --needed --noconfirm
+sudo pacman -S kwallet-pam --needed --noconfirm
+sudo pacman -S plasma-browser-integration --needed --noconfirm
+sudo pacman -S plasma-desktop --needed --noconfirm
+sudo pacman -S plasma-nm --needed --noconfirm
+sudo pacman -S plasma-pa --needed --noconfirm
+sudo pacman -S plasma-systemmonitor --needed --noconfirm
+sudo pacman -S powerdevil --needed --noconfirm
+sudo pacman -S sddm-kcm --needed --noconfirm
 
 sudo pacman -S arcolinux-desktop-trasher-git --needed --noconfirm
 
