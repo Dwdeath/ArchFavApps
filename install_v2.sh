@@ -9,10 +9,10 @@ sudo pacman -S rtl88x2bu-dkms-git --needed --noconfirm
 sudo pacman -S timeshift --needed --noconfirm
 sudo pacman -S gparted --needed --noconfirm
 
-sudo pacman -S kitty-git --needed --noconfirm
+#sudo pacman -S kitty-git --needed --noconfirm
 
 sudo pacman -S plasma-meta --needed --noconfirm
-#sudo pacman -S kde-applications --needed --noconfirm
+sudo pacman -S kde-applications --needed --noconfirm
 sudo pacman -S ark --needed --noconfirm
 sudo pacman -S dolphin --needed --noconfirm
 sudo pacman -S ffmpegthumbs --needed --noconfirm
