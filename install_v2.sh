@@ -4,6 +4,11 @@
 sudo pacman -Syu --needed --noconfirm
 
 #// system
+sudo pacman -S archlinux-keyring --needed --noconfirm
+sudo pacman -S rtl88x2bu-dkms-git --needed --noconfirm
+sudo pacman -S timeshift --needed --noconfirm
+sudo pacman -S gparted --needed --noconfirm
+
 sudo pacman -S plasma-meta --needed --noconfirm
 #sudo pacman -S kde-applications --needed --noconfirm
 sudo pacman -S ark --needed --noconfirm
@@ -35,11 +40,6 @@ sudo pacman -S powerdevil --needed --noconfirm
 sudo pacman -S sddm-kcm --needed --noconfirm
 
 sudo pacman -S arcolinux-desktop-trasher-git --needed --noconfirm
-
-sudo pacman -S archlinux-keyring --needed --noconfirm
-sudo pacman -S rtl88x2bu-dkms-git --needed --noconfirm
-sudo pacman -S timeshift --needed --noconfirm
-sudo pacman -S gparted --needed --noconfirm
 #sudo pacman -S boxes --needed --noconfirm
 
 #// tools
