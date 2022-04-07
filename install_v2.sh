@@ -11,8 +11,8 @@ sudo pacman -Syu --needed --noconfirm
 #######################################################
 #//Install Pikaur and keyring to fix repo-listing
 #######################################################
-sudo pacman -S --needed --noconfirm archlinux-keyring
-sudo pacman -S --needed --noconfirm pikaur
+#sudo pacman -S --needed --noconfirm archlinux-keyring
+#sudo pacman -S --needed --noconfirm pikaur
 
 #######################################################
 #// system
