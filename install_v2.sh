@@ -4,132 +4,136 @@
 sudo pacman -Syu --needed --noconfirm
 
 #// system
-sudo pacman -S archlinux-keyring --needed --noconfirm --natsort
-sudo pacman -S powerpill --needed --noconfirm --natsort
+#######################################################
+sudo pacman -S --needed --noconfirm pikaur
+sudo pacman -S --needed --noconfirm archlinux-keyring
+#######################################################
 
-sudo pacman -S linux-xanmod-edge --needed --noconfirm --natsort
-sudo pacman -S linux-xanmod-edge-headers --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort powerpill
 
-sudo pacman -S rtl88x2bu-dkms-git --needed --noconfirm --natsort
-sudo pacman -S timeshift --needed --noconfirm --natsort
-sudo pacman -S gparted --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort linux-xanmod-edge
+pikaur -S  --needed --noconfirm --natsort linux-xanmod-edge-headers
 
-#sudo pacman -S kitty-git --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort rtl88x2bu-dkms-git
+pikaur -S  --needed --noconfirm --natsort timeshift
+pikaur -S  --needed --noconfirm --natsort gparted
 
-sudo pacman -S plasma-desktop --needed --noconfirm --natsort
-sudo pacman -S kde-applications --needed --noconfirm --natsort
-sudo pacman -S ark --needed --noconfirm --natsort
-sudo pacman -S dolphin --needed --noconfirm --natsort
-sudo pacman -S ffmpegthumbs --needed --noconfirm --natsort
-sudo pacman -S kamoso --needed --noconfirm --natsort
-sudo pacman -S kate --needed --noconfirm --natsort
-sudo pacman -S kcalc --needed --noconfirm --natsort
-sudo pacman -S kdegraphics-thumbnailers --needed --noconfirm --natsort
-sudo pacman -S kompare --needed --noconfirm --natsort
-sudo pacman -S konsole --needed --noconfirm --natsort
-#sudo pacman -S ktorrent --needed --noconfirm --natsort
-#sudo pacman -S okular --needed --noconfirm --natsort
-sudo pacman -S spectacle --needed --noconfirm --natsort
-sudo pacman -S bluedevil --needed --noconfirm --natsort
-sudo pacman -S breeze-gtk --needed --noconfirm --natsort
-sudo pacman -S kde-gtk-config --needed --noconfirm --natsort
-sudo pacman -S khotkeys --needed --noconfirm --natsort
-sudo pacman -S kinfocenter --needed --noconfirm --natsort
-sudo pacman -S kscreen --needed --noconfirm --natsort
-sudo pacman -S ksshaskpass --needed --noconfirm --natsort
-sudo pacman -S kwallet-pam --needed --noconfirm --natsort
-sudo pacman -S plasma-browser-integration --needed --noconfirm --natsort
-sudo pacman -S plasma-desktop --needed --noconfirm --natsort
-sudo pacman -S plasma-nm --needed --noconfirm --natsort
-sudo pacman -S plasma-pa --needed --noconfirm --natsort
-sudo pacman -S plasma-systemmonitor --needed --noconfirm --natsort
-sudo pacman -S powerdevil --needed --noconfirm --natsort
-sudo pacman -S sddm-kcm --needed --noconfirm --natsort
+#pikaur -S  --needed --noconfirm --natsort kitty-git
 
-sudo pacman -S arcolinux-desktop-trasher-git --needed --noconfirm --natsort
-#sudo pacman -S boxes --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort plasma-desktop
+pikaur -S  --needed --noconfirm --natsort kde-applications
+pikaur -S  --needed --noconfirm --natsort ark
+pikaur -S  --needed --noconfirm --natsort dolphin
+pikaur -S  --needed --noconfirm --natsort ffmpegthumbs
+pikaur -S  --needed --noconfirm --natsort kamoso
+pikaur -S  --needed --noconfirm --natsort kate
+pikaur -S  --needed --noconfirm --natsort kcalc
+pikaur -S  --needed --noconfirm --natsort kdegraphics-thumbnailers
+pikaur -S  --needed --noconfirm --natsort kompare
+pikaur -S  --needed --noconfirm --natsort konsole
+#pikaur -S  --needed --noconfirm --natsort ktorrent
+#pikaur -S  --needed --noconfirm --natsort okular
+pikaur -S  --needed --noconfirm --natsort spectacle
+pikaur -S  --needed --noconfirm --natsort bluedevil
+pikaur -S  --needed --noconfirm --natsort breeze-gtk
+pikaur -S  --needed --noconfirm --natsort kde-gtk-config
+pikaur -S  --needed --noconfirm --natsort khotkeys
+pikaur -S  --needed --noconfirm --natsort kinfocenter
+pikaur -S  --needed --noconfirm --natsort kscreen
+pikaur -S  --needed --noconfirm --natsort ksshaskpass
+pikaur -S  --needed --noconfirm --natsort kwallet-pam
+pikaur -S  --needed --noconfirm --natsort plasma-browser-integration
+pikaur -S  --needed --noconfirm --natsort plasma-desktop
+pikaur -S  --needed --noconfirm --natsort plasma-nm
+pikaur -S  --needed --noconfirm --natsort plasma-pa
+pikaur -S  --needed --noconfirm --natsort plasma-systemmonitor
+pikaur -S  --needed --noconfirm --natsort powerdevil
+pikaur -S  --needed --noconfirm --natsort sddm-kcm
+
+pikaur -S  --needed --noconfirm --natsort arcolinux-desktop-trasher-git
+#pikaur -S  --needed --noconfirm --natsort boxes
 
 #// tools
-sudo pacman -S ark --needed --noconfirm --natsort
-sudo pacman -S rsync --needed --noconfirm --natsort
-sudo pacman -S grsync --needed --noconfirm --natsort
-sudo pacman -S gpu-viewer --needed --noconfirm --natsort
-sudo pacman -S btop --needed --noconfirm --natsort
-sudo pacman -S cpu-x --needed --noconfirm --natsort
-sudo pacman -S caffeine-ng --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort ark
+pikaur -S  --needed --noconfirm --natsort rsync
+pikaur -S  --needed --noconfirm --natsort grsync
+pikaur -S  --needed --noconfirm --natsort gpu-viewer
+pikaur -S  --needed --noconfirm --natsort btop
+pikaur -S  --needed --noconfirm --natsort cpu-x
+pikaur -S  --needed --noconfirm --natsort caffeine-ng
 
 #// office
-sudo pacman -S onlyoffice-bin --needed --noconfirm --natsort
-#sudo pacman -S notepadqq --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort onlyoffice-bin
+#pikaur -S  --needed --noconfirm --natsort notepadqq
 
 #// dev
-sudo pacman -S android-sdk-platform-tools --needed --noconfirm --natsort
-sudo pacman -S godot --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort android-sdk-platform-tools
+pikaur -S  --needed --noconfirm --natsort godot
 
 #// Graphic design
-sudo pacman -S blender --needed --noconfirm --natsort
-sudo pacman -S krita --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort blender
+pikaur -S  --needed --noconfirm --natsort krita
 
 #// media
-sudo pacman -S dms --needed --noconfirm --natsort
-#sudo pacman -S mpc-qt-git --needed --noconfirm --natsort
-sudo pacman -S smplayer --needed --noconfirm --natsort
-sudo pacman -S audacious --needed --noconfirm --natsort
-#sudo pacman -S elisa --needed --noconfirm --natsort
-#sudo pacman -S qmmp --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort dms
+#pikaur -S  --needed --noconfirm --natsort mpc-qt-git
+pikaur -S  --needed --noconfirm --natsort smplayer
+pikaur -S  --needed --noconfirm --natsort audacious
+#pikaur -S  --needed --noconfirm --natsort elisa
+#pikaur -S  --needed --noconfirm --natsort qmmp
 
 #// games
-sudo pacman -S wireshark-qt --needed --noconfirm --natsort
-sudo pacman -S rum --needed --noconfirm --natsort
-sudo pacman -S lutris --needed --noconfirm --natsort
-sudo pacman -S ultimmc-bin --needed --noconfirm --natsort
-sudo pacman -S wesnoth --needed --noconfirm --natsort
-sudo pacman -S airshipper --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort wireshark-qt
+pikaur -S  --needed --noconfirm --natsort rum
+pikaur -S  --needed --noconfirm --natsort lutris
+pikaur -S  --needed --noconfirm --natsort ultimmc-bin
+pikaur -S  --needed --noconfirm --natsort wesnoth
+pikaur -S  --needed --noconfirm --natsort airshipper
 
 #// fun
-sudo pacman -S hollywood --needed --noconfirm --natsort
-#sudo pacman -S cmatrix --needed --noconfirm --natsort
-sudo pacman -S ruffle --needed --noconfirm --natsort
-sudo pacman -S cava --needed --noconfirm --natsort
-#sudo pacman -S notflix-git --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort hollywood
+#pikaur -S  --needed --noconfirm --natsort cmatrix
+pikaur -S  --needed --noconfirm --natsort ruffle
+pikaur -S  --needed --noconfirm --natsort cava
+#pikaur -S  --needed --noconfirm --natsort notflix-git
 
 #// web
-sudo pacman -S firedragon --needed --noconfirm --natsort
-sudo pacman -S wget --needed --noconfirm --natsort
-sudo pacman -S protonup-qt --needed --noconfirm --natsort
-sudo pacman -S steam-tui --needed --noconfirm --natsort
-sudo pacman -S gamehub --needed --noconfirm --natsort
-sudo pacman -S qbittorrent --needed --noconfirm --natsort
-sudo pacman -S ferdi --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort firedragon
+pikaur -S  --needed --noconfirm --natsort wget
+pikaur -S  --needed --noconfirm --natsort protonup-qt
+pikaur -S  --needed --noconfirm --natsort steam-tui
+pikaur -S  --needed --noconfirm --natsort gamehub
+pikaur -S  --needed --noconfirm --natsort qbittorrent
+pikaur -S  --needed --noconfirm --natsort ferdi
 
 #// communication
-sudo pacman -S droidcam --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort droidcam
 
 #// package managers
-sudo pacman -S paru --needed --noconfirm --natsort
-sudo pacman -S yay --needed --noconfirm --natsort
-sudo pacman -S pikaur --needed --noconfirm --natsort
-sudo pacman -S bauh --needed --noconfirm --natsort
-sudo pacman -S discover --needed --noconfirm --natsort
-sudo pacman -S octopi --needed --noconfirm --natsort
-sudo pacman -S appimagelauncher --needed --noconfirm --natsort
-sudo pacman -S aura-bin --needed --noconfirm --natsort
-sudo pacman -S flatapk --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort paru
+pikaur -S  --needed --noconfirm --natsort yay
+pikaur -S  --needed --noconfirm --natsort pikaur
+pikaur -S  --needed --noconfirm --natsort bauh
+pikaur -S  --needed --noconfirm --natsort discover
+pikaur -S  --needed --noconfirm --natsort octopi
+pikaur -S  --needed --noconfirm --natsort appimagelauncher
+pikaur -S  --needed --noconfirm --natsort aura-bin
+pikaur -S  --needed --noconfirm --natsort flatapk
 
 #// managers
-#sudo pacman -S bitwarden --needed --noconfirm --natsort
+#pikaur -S  --needed --noconfirm --natsort bitwarden
 
 #// Themes
-sudo pacman -S variety --needed --noconfirm --natsort
-sudo pacman -S latte-dock --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort variety
+pikaur -S  --needed --noconfirm --natsort latte-dock
 
 #// Virtualization
-sudo pacman -S wine-meta --needed --noconfirm --natsort
-#sudo pacman -S wine --needed --noconfirm --natsort
-#sudo pacman -S wine-gecko --needed --noconfirm --natsort
-#sudo pacman -S wine-mono --needed --noconfirm --natsort
-sudo pacman -S rumtricks --needed --noconfirm --natsort
-sudo pacman -S vmware-workstation --needed --noconfirm --natsort
+pikaur -S  --needed --noconfirm --natsort wine-meta
+#pikaur -S  --needed --noconfirm --natsort wine
+#pikaur -S  --needed --noconfirm --natsort wine-gecko
+#pikaur -S  --needed --noconfirm --natsort wine-mono
+pikaur -S  --needed --noconfirm --natsort rumtricks
+pikaur -S  --needed --noconfirm --natsort vmware-workstation
 
 #//shut the system down when finished
 shutdown now
