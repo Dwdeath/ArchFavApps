@@ -5,13 +5,17 @@ sudo pacman -Syu --needed --noconfirm
 
 #// system
 sudo pacman -S archlinux-keyring --needed --noconfirm
+
+sudo pacman -S linux-xanmod-edge --needed --noconfirm
+sudo pacman -S linux-xanmod-edge-headers --needed --noconfirm
+
 sudo pacman -S rtl88x2bu-dkms-git --needed --noconfirm
 sudo pacman -S timeshift --needed --noconfirm
 sudo pacman -S gparted --needed --noconfirm
 
 #sudo pacman -S kitty-git --needed --noconfirm
 
-sudo pacman -S plasma-meta --needed --noconfirm
+sudo pacman -S plasma-desktop --needed --noconfirm
 sudo pacman -S kde-applications --needed --noconfirm
 sudo pacman -S ark --needed --noconfirm
 sudo pacman -S dolphin --needed --noconfirm
@@ -21,7 +25,7 @@ sudo pacman -S kate --needed --noconfirm
 sudo pacman -S kcalc --needed --noconfirm
 sudo pacman -S kdegraphics-thumbnailers --needed --noconfirm
 sudo pacman -S kompare --needed --noconfirm
-#sudo pacman -S konsole --needed --noconfirm
+sudo pacman -S konsole --needed --noconfirm
 #sudo pacman -S ktorrent --needed --noconfirm
 #sudo pacman -S okular --needed --noconfirm
 sudo pacman -S spectacle --needed --noconfirm
