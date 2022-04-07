@@ -5,6 +5,7 @@ sudo pacman -Syu --needed --noconfirm
 
 #// system
 sudo pacman -S archlinux-keyring --needed --noconfirm
+sudo pacman -S powerpill --needed --noconfirm
 
 sudo pacman -S linux-xanmod-edge --needed --noconfirm
 sudo pacman -S linux-xanmod-edge-headers --needed --noconfirm
