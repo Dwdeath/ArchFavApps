@@ -1,175 +1,178 @@
 #!/usr/bin/env bash
 
 #variables
-sap="eecho #######################################################"
-install="pikaur -S --1needed --1noconfirm --1natsort"
+sap="#######################################################"
+pika="pikaur -S --needed --noconfirm --natsort"
 
-echo "#######################################################"
-echo "Update the system""
-echo "#######################################################"
+echo "$sap"
+echo "Update the system"
+echo "$sap"
 sudo pacman -Syu --needed --noconfirm
 
-echo "#######################################################"
-echo "//Install Pikaur and keyring to fix repo-listing""
-echo "#######################################################"
+echo "$sap"
+#//Install Pikaur and keyring to fix repo-listing
+echo "$sap"
 sudo pacman -S --needed --noconfirm archlinux-keyring
 sudo pacman -S --needed --noconfirm pikaur
 
-echo "#######################################################"
-echo "#// system"
-echo "#######################################################"
-echo $install archlinux-keyring
-eecho $install powerpill
+#######################################################
+#// system
+#######################################################
+pikaur -S --needed --noconfirm --natsort archlinux-keyring
+pikaur -S --needed --noconfirm --natsort powerpill
 
-eecho $install linux-xanmod-edge
-eecho $install linux-xanmod-edge-headers
+pikaur -S --needed --noconfirm --natsort linux-xanmod-edge
+pikaur -S  --needed --noconfirm --natsort linux-xanmod-edge-headers
 
-eecho $install rtl88x2bu-dkms-git
-eecho $install timeshift
-eecho $install gparted
+pikaur -S  --needed --noconfirm --natsort rtl88x2bu-dkms-git
+pikaur -S  --needed --noconfirm --natsort timeshift
+pikaur -S  --needed --noconfirm --natsort gparted
 
-eecho $install plasma-desktop
-eecho $install kde-applications
-# eecho $install ark
-# eecho $install dolphin
-# eecho $install ffmpegthumbs
-# eecho $install kamoso
-# eecho $install kate
-# eecho $install kcalc
-# eecho $install kdegraphics-thumbnailers
-# eecho $install kompare
-# eecho $install konsole
-#eecho $install ktorrent
-#eecho $install okular
-# eecho $install spectacle
-# eecho $install bluedevil
-# eecho $install breeze-gtk
-# eecho $install kde-gtk-config
-# eecho $install khotkeys
-# eecho $install kinfocenter
-# eecho $install kscreen
-# eecho $install ksshaskpass
-# eecho $install kwallet-pam
-# eecho $install plasma-browser-integration
-# eecho $install plasma-nm
-# eecho $install plasma-pa
-# eecho $install plasma-systemmonitor
-# eecho $install powerdevil
-eecho $install sddm-kcm
+pikaur -S  --needed --noconfirm --natsort plasma-desktop
+pikaur -S  --needed --noconfirm --natsort kde-applications
+#pikaur -S  --needed --noconfirm --natsort ark
+#pikaur -S  --needed --noconfirm --natsort dolphin
+#pikaur -S  --needed --noconfirm --natsort ffmpegthumbs
+#pikaur -S  --needed --noconfirm --natsort kamoso
+#pikaur -S  --needed --noconfirm --natsort kate
+#pikaur -S  --needed --noconfirm --natsort kcalc
+#pikaur -S  --needed --noconfirm --natsort kdegraphics-thumbnailers
+#pikaur -S  --needed --noconfirm --natsort kompare
+#pikaur -S  --needed --noconfirm --natsort konsole
+#pikaur -S  --needed --noconfirm --natsort ktorrent
+#pikaur -S  --needed --noconfirm --natsort okular
+#pikaur -S  --needed --noconfirm --natsort spectacle
+#pikaur -S  --needed --noconfirm --natsort bluedevil
+#pikaur -S  --needed --noconfirm --natsort breeze-gtk
+#pikaur -S  --needed --noconfirm --natsort kde-gtk-config
+#pikaur -S  --needed --noconfirm --natsort khotkeys
+#pikaur -S  --needed --noconfirm --natsort kinfocenter
+#pikaur -S  --needed --noconfirm --natsort kscreen
+#pikaur -S  --needed --noconfirm --natsort ksshaskpass
+#pikaur -S  --needed --noconfirm --natsort kwallet-pam
+#pikaur -S  --needed --noconfirm --natsort plasma-browser-integration
+#pikaur -S  --needed --noconfirm --natsort plasma-desktop
+#pikaur -S  --needed --noconfirm --natsort plasma-nm
+#pikaur -S  --needed --noconfirm --natsort plasma-pa
+#pikaur -S  --needed --noconfirm --natsort plasma-systemmonitor
+#pikaur -S  --needed --noconfirm --natsort powerdevil
+pikaur -S  --needed --noconfirm --natsort sddm-kcm
 
-eecho $install arcolinux-desktop-trasher-git
-#eecho $install boxes
+pikaur -S  --needed --noconfirm --natsort arcolinux-desktop-trasher-git
+#pikaur -S  --needed --noconfirm --natsort boxes
 
-echo "#######################################################"
-echo "#// tools"
-echo "#######################################################"
-echo $install ark
-eecho $install rsync
-eecho $install grsync
-eecho $install gpu-viewer
-eecho $install btop
-eecho $install cpu-x
-eecho $install caffeine-ng
+#######################################################
+#// tools
+#######################################################
+pikaur -S  --needed --noconfirm --natsort ark
+pikaur -S  --needed --noconfirm --natsort rsync
+pikaur -S  --needed --noconfirm --natsort grsync
+pikaur -S  --needed --noconfirm --natsort gpu-viewer
+pikaur -S  --needed --noconfirm --natsort btop
+pikaur -S  --needed --noconfirm --natsort cpu-x
+pikaur -S  --needed --noconfirm --natsort caffeine-ng
 
-echo "#######################################################"
-echo "#// Office"
-echo "#######################################################"
-echo $install onlyoffice-bin
-#eecho $install notepadqq
+#######################################################
+#// Office
+#######################################################
+pikaur -S  --needed --noconfirm --natsort onlyoffice-bin
+#pikaur -S  --needed --noconfirm --natsort notepadqq
 
-echo "#######################################################"
-echo "#// Dev"
-echo "#######################################################"
-echo $install android-tools
-eecho $install android-sdk-platform-tools
-eecho $install godot
+#######################################################
+#// Dev
+#######################################################
+pikaur -S  --needed --noconfirm --natsort android-tools
+pikaur -S  --needed --noconfirm --natsort android-sdk-platform-tools
+pikaur -S  --needed --noconfirm --natsort godot
 
-echo "#######################################################"
-echo "#// Graphic design"
-echo "#######################################################"
-echo $install blender
-eecho $install krita
 
-echo "#######################################################"
-echo "#// Media"
-echo "#######################################################"
-echo $install dms
-#eecho $install mpc-qt-git
-eecho $install smplayer
-eecho $install audacious
-#eecho $install elisa
-#eecho $install qmmp
+#######################################################
+#// Graphic design
+#######################################################
+pikaur -S  --needed --noconfirm --natsort blender
+pikaur -S  --needed --noconfirm --natsort krita
 
-echo "#######################################################"
-echo "#// Games"
-echo "#######################################################"
-echo $install wireshark-qt
-eecho $install rum
-eecho $install lutris
-eecho $install ultimmc-bin
-eecho $install wesnoth
-eecho $install airshipper
 
-echo "#######################################################"
-echo "#// Fun"
-echo "#######################################################"
-echo $install hollywood
-#eecho $install cmatrix
-eecho $install ruffle
-eecho $install cava
-#eecho $install notflix-git
+#######################################################
+#// Media
+#######################################################
+pikaur -S  --needed --noconfirm --natsort dms
+#pikaur -S  --needed --noconfirm --natsort mpc-qt-git
+pikaur -S  --needed --noconfirm --natsort smplayer
+pikaur -S  --needed --noconfirm --natsort audacious
+#pikaur -S  --needed --noconfirm --natsort elisa
+#pikaur -S  --needed --noconfirm --natsort qmmp
 
-echo "#######################################################"
-echo "#// Web"
-echo "#######################################################"
-echo $install firedragon
-eecho $install wget
-eecho $install protonup-qt
-eecho $install steam-tui
-eecho $install gamehub
-eecho $install qbittorrent
-eecho $install ferdi
+#######################################################
+#// Games
+#######################################################
+pikaur -S  --needed --noconfirm --natsort wireshark-qt
+pikaur -S  --needed --noconfirm --natsort rum
+pikaur -S  --needed --noconfirm --natsort lutris
+pikaur -S  --needed --noconfirm --natsort ultimmc-bin
+pikaur -S  --needed --noconfirm --natsort wesnoth
+pikaur -S  --needed --noconfirm --natsort airshipper
 
-echo "#######################################################"
-echo "#// communication"
-echo "#######################################################"
-echo $install droidcam
+#######################################################
+#// Fun
+#######################################################
+pikaur -S  --needed --noconfirm --natsort hollywood
+#pikaur -S  --needed --noconfirm --natsort cmatrix
+pikaur -S  --needed --noconfirm --natsort ruffle
+pikaur -S  --needed --noconfirm --natsort cava
+#pikaur -S  --needed --noconfirm --natsort notflix-git
 
-echo "#######################################################"
-echo "#// package managers"
-echo "#######################################################"
-echo $install paru
-eecho $install yay
-eecho $install pikaur
-eecho $install bauh
-eecho $install discover
-eecho $install octopi
-eecho $install appimagelauncher
-eecho $install aura-bin
-eecho $install flatapk
+#######################################################
+#// Web
+#######################################################
+pikaur -S  --needed --noconfirm --natsort firedragon
+pikaur -S  --needed --noconfirm --natsort wget
+pikaur -S  --needed --noconfirm --natsort protonup-qt
+pikaur -S  --needed --noconfirm --natsort steam-tui
+pikaur -S  --needed --noconfirm --natsort gamehub
+pikaur -S  --needed --noconfirm --natsort qbittorrent
+pikaur -S  --needed --noconfirm --natsort ferdi
 
-echo "#######################################################"
-echo "#// managers"
-echo "#######################################################"
-#eecho $install bitwarden
+#######################################################
+#// communication
+#######################################################
+pikaur -S  --needed --noconfirm --natsort droidcam
 
-echo "#######################################################"
-echo "#// Themes"
-echo "#######################################################"
-echo $install variety
-eecho $install latte-dock
+#######################################################
+#// package managers
+#######################################################
+pikaur -S  --needed --noconfirm --natsort paru
+pikaur -S  --needed --noconfirm --natsort yay
+pikaur -S  --needed --noconfirm --natsort pikaur
+pikaur -S  --needed --noconfirm --natsort bauh
+pikaur -S  --needed --noconfirm --natsort discover
+pikaur -S  --needed --noconfirm --natsort octopi
+pikaur -S  --needed --noconfirm --natsort appimagelauncher
+pikaur -S  --needed --noconfirm --natsort aura-bin
+pikaur -S  --needed --noconfirm --natsort flatapk
 
-echo "#######################################################"
-echo "#// Virtualization"
-echo "#######################################################"
-echo $install wine-meta
-#eecho $install wine
-#eecho $install wine-gecko
-#eecho $install wine-mono
-eecho $install rumtricks
-eecho $install vmware-workstation
+#######################################################
+#// managers
+#######################################################
+#pikaur -S  --needed --noconfirm --natsort bitwarden
 
-echo "#######################################################"
-echo "#//shut the system down when finished"
-echo "#######################################################"
+#######################################################
+#// Themes
+#######################################################
+pikaur -S  --needed --noconfirm --natsort variety
+pikaur -S  --needed --noconfirm --natsort latte-dock
+
+#######################################################
+#// Virtualization
+#######################################################
+pikaur -S  --needed --noconfirm --natsort wine-meta
+#pikaur -S  --needed --noconfirm --natsort wine
+#pikaur -S  --needed --noconfirm --natsort wine-gecko
+#pikaur -S  --needed --noconfirm --natsort wine-mono
+pikaur -S  --needed --noconfirm --natsort rumtricks
+pikaur -S  --needed --noconfirm --natsort vmware-workstation
+
+#######################################################
+#//shut the system down when finished
+#######################################################
 shutdown now
