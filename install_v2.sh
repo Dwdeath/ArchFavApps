@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #variables
-install="pikaur -S --needed --noconfirm --natsort"
+install="sudo pacman -S --needed --noconfirm"
 
 #######################################################
 echo "Update the system"
@@ -17,159 +17,159 @@ sudo pacman -S --needed --noconfirm pikaur
 #######################################################
 #// system
 #######################################################
-pikaur -S --needed --noconfirm --natsort archlinux-keyring
-pikaur -S --needed --noconfirm --natsort powerpill
+echo install archlinux-keyring
+echo install powerpill
 
-pikaur -S --needed --noconfirm --natsort linux-xanmod-edge
-pikaur -S  --needed --noconfirm --natsort linux-xanmod-edge-headers
+echo install linux-xanmod-edge
+echo install linux-xanmod-edge-headers
 
-pikaur -S  --needed --noconfirm --natsort rtl88x2bu-dkms-git
-pikaur -S  --needed --noconfirm --natsort timeshift
-pikaur -S  --needed --noconfirm --natsort gparted
+echo install rtl88x2bu-dkms-git
+echo install timeshift
+echo install gparted
 
-pikaur -S  --needed --noconfirm --natsort plasma-desktop
-pikaur -S  --needed --noconfirm --natsort kde-applications
-#pikaur -S  --needed --noconfirm --natsort ark
-#pikaur -S  --needed --noconfirm --natsort dolphin
-#pikaur -S  --needed --noconfirm --natsort ffmpegthumbs
-#pikaur -S  --needed --noconfirm --natsort kamoso
-#pikaur -S  --needed --noconfirm --natsort kate
-#pikaur -S  --needed --noconfirm --natsort kcalc
-#pikaur -S  --needed --noconfirm --natsort kdegraphics-thumbnailers
-#pikaur -S  --needed --noconfirm --natsort kompare
-#pikaur -S  --needed --noconfirm --natsort konsole
-#pikaur -S  --needed --noconfirm --natsort ktorrent
-#pikaur -S  --needed --noconfirm --natsort okular
-#pikaur -S  --needed --noconfirm --natsort spectacle
-#pikaur -S  --needed --noconfirm --natsort bluedevil
-#pikaur -S  --needed --noconfirm --natsort breeze-gtk
-#pikaur -S  --needed --noconfirm --natsort kde-gtk-config
-#pikaur -S  --needed --noconfirm --natsort khotkeys
-#pikaur -S  --needed --noconfirm --natsort kinfocenter
-#pikaur -S  --needed --noconfirm --natsort kscreen
-#pikaur -S  --needed --noconfirm --natsort ksshaskpass
-#pikaur -S  --needed --noconfirm --natsort kwallet-pam
-#pikaur -S  --needed --noconfirm --natsort plasma-browser-integration
-#pikaur -S  --needed --noconfirm --natsort plasma-desktop
-#pikaur -S  --needed --noconfirm --natsort plasma-nm
-#pikaur -S  --needed --noconfirm --natsort plasma-pa
-#pikaur -S  --needed --noconfirm --natsort plasma-systemmonitor
-#pikaur -S  --needed --noconfirm --natsort powerdevil
-pikaur -S  --needed --noconfirm --natsort sddm-kcm
+echo install plasma-desktop
+echo install kde-applications
+#echo install ark
+#echo install dolphin
+#echo install ffmpegthumbs
+#echo install kamoso
+#echo install kate
+#echo install kcalc
+#echo install kdegraphics-thumbnailers
+#echo install kompare
+#echo install konsole
+#echo install ktorrent
+#echo install okular
+#echo install spectacle
+#echo install bluedevil
+#echo install breeze-gtk
+#echo install kde-gtk-config
+#echo install khotkeys
+#echo install kinfocenter
+#echo install kscreen
+#echo install ksshaskpass
+#echo install kwallet-pam
+#echo install plasma-browser-integration
+#echo install plasma-desktop
+#echo install plasma-nm
+#echo install plasma-pa
+#echo install plasma-systemmonitor
+#echo install powerdevil
+echo install sddm-kcm
 
-pikaur -S  --needed --noconfirm --natsort arcolinux-desktop-trasher-git
-#pikaur -S  --needed --noconfirm --natsort boxes
+echo install arcolinux-desktop-trasher-git
+#echo install boxes
 
 #######################################################
 #// tools
 #######################################################
-pikaur -S  --needed --noconfirm --natsort ark
-pikaur -S  --needed --noconfirm --natsort rsync
-pikaur -S  --needed --noconfirm --natsort grsync
-pikaur -S  --needed --noconfirm --natsort gpu-viewer
-pikaur -S  --needed --noconfirm --natsort btop
-pikaur -S  --needed --noconfirm --natsort cpu-x
-pikaur -S  --needed --noconfirm --natsort caffeine-ng
+echo install ark
+echo install rsync
+echo install grsync
+echo install gpu-viewer
+echo install btop
+echo install cpu-x
+echo install caffeine-ng
 
 #######################################################
 #// Office
 #######################################################
-pikaur -S  --needed --noconfirm --natsort onlyoffice-bin
-#pikaur -S  --needed --noconfirm --natsort notepadqq
+echo install onlyoffice-bin
+#echo install notepadqq
 
 #######################################################
 #// Dev
 #######################################################
-pikaur -S  --needed --noconfirm --natsort android-tools
-pikaur -S  --needed --noconfirm --natsort android-sdk-platform-tools
-pikaur -S  --needed --noconfirm --natsort godot
+echo install android-tools
+echo install android-sdk-platform-tools
+echo install godot
 
 
 #######################################################
 #// Graphic design
 #######################################################
-pikaur -S  --needed --noconfirm --natsort blender
-pikaur -S  --needed --noconfirm --natsort krita
+echo install blender
+echo install krita
 
 
 #######################################################
 #// Media
 #######################################################
-pikaur -S  --needed --noconfirm --natsort dms
-#pikaur -S  --needed --noconfirm --natsort mpc-qt-git
-pikaur -S  --needed --noconfirm --natsort smplayer
-pikaur -S  --needed --noconfirm --natsort audacious
-#pikaur -S  --needed --noconfirm --natsort elisa
-#pikaur -S  --needed --noconfirm --natsort qmmp
+echo install dms
+#echo install mpc-qt-git
+echo install smplayer
+echo install audacious
+#echo install elisa
+#echo install qmmp
 
 #######################################################
 #// Games
 #######################################################
-pikaur -S  --needed --noconfirm --natsort wireshark-qt
-pikaur -S  --needed --noconfirm --natsort rum
-pikaur -S  --needed --noconfirm --natsort lutris
-pikaur -S  --needed --noconfirm --natsort ultimmc-bin
-pikaur -S  --needed --noconfirm --natsort wesnoth
-pikaur -S  --needed --noconfirm --natsort airshipper
+echo install wireshark-qt
+echo install rum
+echo install lutris
+echo install ultimmc-bin
+echo install wesnoth
+echo install airshipper
 
 #######################################################
 #// Fun
 #######################################################
-pikaur -S  --needed --noconfirm --natsort hollywood
-#pikaur -S  --needed --noconfirm --natsort cmatrix
-pikaur -S  --needed --noconfirm --natsort ruffle
-pikaur -S  --needed --noconfirm --natsort cava
-#pikaur -S  --needed --noconfirm --natsort notflix-git
+echo install hollywood
+#echo install cmatrix
+echo install ruffle
+echo install cava
+#echo install notflix-git
 
 #######################################################
 #// Web
 #######################################################
-pikaur -S  --needed --noconfirm --natsort firedragon
-pikaur -S  --needed --noconfirm --natsort wget
-pikaur -S  --needed --noconfirm --natsort protonup-qt
-pikaur -S  --needed --noconfirm --natsort steam-tui
-pikaur -S  --needed --noconfirm --natsort gamehub
-pikaur -S  --needed --noconfirm --natsort qbittorrent
-pikaur -S  --needed --noconfirm --natsort ferdi
+echo install firedragon
+echo install wget
+echo install protonup-qt
+echo install steam-tui
+echo install gamehub
+echo install qbittorrent
+echo install ferdi
 
 #######################################################
 #// communication
 #######################################################
-pikaur -S  --needed --noconfirm --natsort droidcam
+echo install droidcam
 
 #######################################################
 #// package managers
 #######################################################
-pikaur -S  --needed --noconfirm --natsort paru
-pikaur -S  --needed --noconfirm --natsort yay
-pikaur -S  --needed --noconfirm --natsort pikaur
-pikaur -S  --needed --noconfirm --natsort bauh
-pikaur -S  --needed --noconfirm --natsort discover
-pikaur -S  --needed --noconfirm --natsort octopi
-pikaur -S  --needed --noconfirm --natsort appimagelauncher
-pikaur -S  --needed --noconfirm --natsort aura-bin
-pikaur -S  --needed --noconfirm --natsort flatapk
+echo install paru
+echo install yay
+echo install pikaur
+echo install bauh
+echo install discover
+echo install octopi
+echo install appimagelauncher
+echo install aura-bin
+echo install flatapk
 
 #######################################################
 #// managers
 #######################################################
-#pikaur -S  --needed --noconfirm --natsort bitwarden
+#echo install bitwarden
 
 #######################################################
 #// Themes
 #######################################################
-pikaur -S  --needed --noconfirm --natsort variety
-pikaur -S  --needed --noconfirm --natsort latte-dock
+echo install variety
+echo install latte-dock
 
 #######################################################
 #// Virtualization
 #######################################################
-pikaur -S  --needed --noconfirm --natsort wine-meta
-#pikaur -S  --needed --noconfirm --natsort wine
-#pikaur -S  --needed --noconfirm --natsort wine-gecko
-#pikaur -S  --needed --noconfirm --natsort wine-mono
-pikaur -S  --needed --noconfirm --natsort rumtricks
-pikaur -S  --needed --noconfirm --natsort vmware-workstation
+echo install wine-meta
+#echo install wine
+#echo install wine-gecko
+#echo install wine-mono
+echo install rumtricks
+echo install vmware-workstation
 
 #######################################################
 #//shut the system down when finished
