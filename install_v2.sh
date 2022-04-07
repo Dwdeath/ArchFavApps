@@ -30,32 +30,31 @@ eecho $install gparted
 
 eecho $install plasma-desktop
 eecho $install kde-applications
-eecho $install ark
-eecho $install dolphin
-eecho $install ffmpegthumbs
-eecho $install kamoso
-eecho $install kate
-eecho $install kcalc
-eecho $install kdegraphics-thumbnailers
-eecho $install kompare
-eecho $install konsole
+# eecho $install ark
+# eecho $install dolphin
+# eecho $install ffmpegthumbs
+# eecho $install kamoso
+# eecho $install kate
+# eecho $install kcalc
+# eecho $install kdegraphics-thumbnailers
+# eecho $install kompare
+# eecho $install konsole
 #eecho $install ktorrent
 #eecho $install okular
-eecho $install spectacle
-eecho $install bluedevil
-eecho $install breeze-gtk
-eecho $install kde-gtk-config
-eecho $install khotkeys
-eecho $install kinfocenter
-eecho $install kscreen
-eecho $install ksshaskpass
-eecho $install kwallet-pam
-eecho $install plasma-browser-integration
-eecho $install plasma-desktop
-eecho $install plasma-nm
-eecho $install plasma-pa
-eecho $install plasma-systemmonitor
-eecho $install powerdevil
+# eecho $install spectacle
+# eecho $install bluedevil
+# eecho $install breeze-gtk
+# eecho $install kde-gtk-config
+# eecho $install khotkeys
+# eecho $install kinfocenter
+# eecho $install kscreen
+# eecho $install ksshaskpass
+# eecho $install kwallet-pam
+# eecho $install plasma-browser-integration
+# eecho $install plasma-nm
+# eecho $install plasma-pa
+# eecho $install plasma-systemmonitor
+# eecho $install powerdevil
 eecho $install sddm-kcm
 
 eecho $install arcolinux-desktop-trasher-git
