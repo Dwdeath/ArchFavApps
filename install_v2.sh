@@ -1,13 +1,17 @@
 #!/usr/bin/env bash
 
-#######################################################
-#//Update the system
-#######################################################
+#variables
+sap="#######################################################"
+pika="pikaur -S --needed --noconfirm --natsort"
+
+echo "$sap"
+echo "Update the system"
+echo "$sap"
 sudo pacman -Syu --needed --noconfirm
 
-#######################################################
+echo "$sap"
 #//Install Pikaur and keyring to fix repo-listing
-#######################################################
+echo "$sap"
 sudo pacman -S --needed --noconfirm archlinux-keyring
 sudo pacman -S --needed --noconfirm pikaur
 
@@ -15,9 +19,9 @@ sudo pacman -S --needed --noconfirm pikaur
 #// system
 #######################################################
 pikaur -S --needed --noconfirm --natsort archlinux-keyring
-pikaur -S  --needed --noconfirm --natsort powerpill
+pikaur -S --needed --noconfirm --natsort powerpill
 
-pikaur -S  --needed --noconfirm --natsort linux-xanmod-edge
+pikaur -S --needed --noconfirm --natsort linux-xanmod-edge
 pikaur -S  --needed --noconfirm --natsort linux-xanmod-edge-headers
 
 pikaur -S  --needed --noconfirm --natsort rtl88x2bu-dkms-git
@@ -26,32 +30,32 @@ pikaur -S  --needed --noconfirm --natsort gparted
 
 pikaur -S  --needed --noconfirm --natsort plasma-desktop
 pikaur -S  --needed --noconfirm --natsort kde-applications
-pikaur -S  --needed --noconfirm --natsort ark
-pikaur -S  --needed --noconfirm --natsort dolphin
-pikaur -S  --needed --noconfirm --natsort ffmpegthumbs
-pikaur -S  --needed --noconfirm --natsort kamoso
-pikaur -S  --needed --noconfirm --natsort kate
-pikaur -S  --needed --noconfirm --natsort kcalc
-pikaur -S  --needed --noconfirm --natsort kdegraphics-thumbnailers
-pikaur -S  --needed --noconfirm --natsort kompare
-pikaur -S  --needed --noconfirm --natsort konsole
+#pikaur -S  --needed --noconfirm --natsort ark
+#pikaur -S  --needed --noconfirm --natsort dolphin
+#pikaur -S  --needed --noconfirm --natsort ffmpegthumbs
+#pikaur -S  --needed --noconfirm --natsort kamoso
+#pikaur -S  --needed --noconfirm --natsort kate
+#pikaur -S  --needed --noconfirm --natsort kcalc
+#pikaur -S  --needed --noconfirm --natsort kdegraphics-thumbnailers
+#pikaur -S  --needed --noconfirm --natsort kompare
+#pikaur -S  --needed --noconfirm --natsort konsole
 #pikaur -S  --needed --noconfirm --natsort ktorrent
 #pikaur -S  --needed --noconfirm --natsort okular
-pikaur -S  --needed --noconfirm --natsort spectacle
-pikaur -S  --needed --noconfirm --natsort bluedevil
-pikaur -S  --needed --noconfirm --natsort breeze-gtk
-pikaur -S  --needed --noconfirm --natsort kde-gtk-config
-pikaur -S  --needed --noconfirm --natsort khotkeys
-pikaur -S  --needed --noconfirm --natsort kinfocenter
-pikaur -S  --needed --noconfirm --natsort kscreen
-pikaur -S  --needed --noconfirm --natsort ksshaskpass
-pikaur -S  --needed --noconfirm --natsort kwallet-pam
-pikaur -S  --needed --noconfirm --natsort plasma-browser-integration
-pikaur -S  --needed --noconfirm --natsort plasma-desktop
-pikaur -S  --needed --noconfirm --natsort plasma-nm
-pikaur -S  --needed --noconfirm --natsort plasma-pa
-pikaur -S  --needed --noconfirm --natsort plasma-systemmonitor
-pikaur -S  --needed --noconfirm --natsort powerdevil
+#pikaur -S  --needed --noconfirm --natsort spectacle
+#pikaur -S  --needed --noconfirm --natsort bluedevil
+#pikaur -S  --needed --noconfirm --natsort breeze-gtk
+#pikaur -S  --needed --noconfirm --natsort kde-gtk-config
+#pikaur -S  --needed --noconfirm --natsort khotkeys
+#pikaur -S  --needed --noconfirm --natsort kinfocenter
+#pikaur -S  --needed --noconfirm --natsort kscreen
+#pikaur -S  --needed --noconfirm --natsort ksshaskpass
+#pikaur -S  --needed --noconfirm --natsort kwallet-pam
+#pikaur -S  --needed --noconfirm --natsort plasma-browser-integration
+#pikaur -S  --needed --noconfirm --natsort plasma-desktop
+#pikaur -S  --needed --noconfirm --natsort plasma-nm
+#pikaur -S  --needed --noconfirm --natsort plasma-pa
+#pikaur -S  --needed --noconfirm --natsort plasma-systemmonitor
+#pikaur -S  --needed --noconfirm --natsort powerdevil
 pikaur -S  --needed --noconfirm --natsort sddm-kcm
 
 pikaur -S  --needed --noconfirm --natsort arcolinux-desktop-trasher-git
