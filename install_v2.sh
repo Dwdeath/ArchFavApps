@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #variables
-install="sudo pacman -S --needed --noconfirm"
+install="sudo pacman -S --Qm --needed --noconfirm"
 
 #######################################################
 echo "Update the system"
