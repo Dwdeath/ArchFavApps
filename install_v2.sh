@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 
 #variables
-sap="#######################################################"
-pika="pikaur -S --needed --noconfirm --natsort"
+install="pikaur -S --needed --noconfirm --natsort"
 
-echo "$sap"
+#######################################################
 echo "Update the system"
-echo "$sap"
+#######################################################
 sudo pacman -Syu --needed --noconfirm
 
-echo "$sap"
+#######################################################
 #//Install Pikaur and keyring to fix repo-listing
-echo "$sap"
+#######################################################
 sudo pacman -S --needed --noconfirm archlinux-keyring
 sudo pacman -S --needed --noconfirm pikaur
 
