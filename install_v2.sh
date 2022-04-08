@@ -106,15 +106,15 @@ $install audacious
 #// Gaming
 #######################################################
 $install ultimmc-bin
-$install wesnoth
-$install airshipper
+#$install wesnoth
+#$install airshipper
 
-$install wine-meta
+#$install wine-meta
 $install rum
 $install lutris
 $install protonup-qt
-$install proton-ge-custom-bin
-$install wine-ge-custom-bin
+#$install proton-ge-custom-bin
+#$install wine-ge-custom-bin
 $install rumtricks
 
 #######################################################
