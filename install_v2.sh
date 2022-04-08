@@ -103,14 +103,19 @@ $install audacious
 #$install qmmp
 
 #######################################################
-#// Games
+#// Gaming
 #######################################################
-$install wireshark-qt
-$install rum
-$install lutris
 $install ultimmc-bin
 $install wesnoth
 $install airshipper
+
+$install wine-meta
+$install rum
+$install lutris
+$install protonup-qt
+$install proton-ge-custom-bin
+$install wine-ge-custom-bin
+$install rumtricks
 
 #######################################################
 #// Fun
@@ -131,6 +136,7 @@ $install steam-tui
 $install gamehub
 $install qbittorrent
 $install ferdi
+$install wireshark-qt
 
 #######################################################
 #// communication
@@ -164,11 +170,6 @@ $install latte-dock
 #######################################################
 #// Virtualization
 #######################################################
-$install wine-meta
-#$install wine
-#$install wine-gecko
-#$install wine-mono
-$install rumtricks
 $install vmware-workstation
 
 #######################################################
