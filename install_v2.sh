@@ -96,7 +96,7 @@ $install godot
 #######################################################
 #// Media
 #######################################################
-$install dms
+$install ums
 #$install mpc-qt-git
 $install smplayer
 $install audacious
