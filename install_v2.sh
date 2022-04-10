@@ -61,7 +61,7 @@ $install arcolinux-desktop-trasher-git
 #$install boxes
 
 #######################################################
-#// tools
+#// Tools
 #######################################################
 $install ark
 #$install rsync
@@ -79,18 +79,17 @@ $install onlyoffice-bin
 #$install notepadqq
 
 #######################################################
-#// Dev
+#// Development
 #######################################################
-#$install android-tools
-#$install android-sdk-platform-tools
+$install android-tools
+$install android-sdk-platform-tools
 $install godot
 
-
 #######################################################
-#// Graphic design
+#// Graphic Design
 #######################################################
-#$install blender
-#$install krita
+$install blender
+$install krita
 
 
 #######################################################
@@ -112,7 +111,7 @@ $install ultimmc-bin
 
 #$install wine-meta
 #$install rum
-#$install lutris
+$install lutris
 $install protonup-qt
 #$install proton-ge-custom-bin
 #$install wine-ge-custom-bin
@@ -130,23 +129,23 @@ $install cava
 #######################################################
 #// Web
 #######################################################
-#$install firedragon
-$install Falkon
+$install firedragon
+#$install Falkon
 $install wget
 $install protonup-qt
 #$install steam-tui
 #$install gamehub
 $install qbittorrent
 #$install ferdi
-#$install wireshark-qt
+$install wireshark-qt
 
 #######################################################
-#// communication
+#// Communication
 #######################################################
-#$install droidcam
+$install droidcam
 
 #######################################################
-#// package managers
+#// Package Managers
 #######################################################
 $install paru
 $install yay
@@ -156,10 +155,10 @@ $install discover
 $install octopi
 $install appimagelauncher
 $install aura-bin
-$install flatapk
+$install flatpak
 
 #######################################################
-#// managers
+#// Security
 #######################################################
 #$install bitwarden
 
