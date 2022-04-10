@@ -5,7 +5,7 @@ usage:
 ```sh
 sudo pacman -S wget
 wget https://github.com/Dwdeath/FavApps.git
-sh ./install_v3.sh
+sudo sh ./install_v3.sh
 ```
 
 and enter your password
