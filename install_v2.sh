@@ -168,6 +168,7 @@ $install flatapk
 #######################################################
 $install variety
 $install latte-dock
+$install lightlyshaders-git
 
 #######################################################
 #// Virtualization
