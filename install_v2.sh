@@ -24,24 +24,24 @@ $install linux-xanmod-edge
 $install linux-xanmod-edge-headers
 
 $install rtl88x2bu-dkms-git
-$install timeshift
+#$install timeshift
 $install gparted
 
-$install plasma-desktop
-$install kde-applications
-#$install ark
-#$install dolphin
+$install plasma
+#$install kde-applications
+$install ark
+$install dolphin
 #$install ffmpegthumbs
 #$install kamoso
-#$install kate
+$install kate
 #$install kcalc
 #$install kdegraphics-thumbnailers
 #$install kompare
-#$install konsole
+$install konsole
 #$install ktorrent
 #$install okular
 #$install spectacle
-#$install bluedevil
+$install bluedevil
 #$install breeze-gtk
 #$install kde-gtk-config
 #$install khotkeys
@@ -64,12 +64,13 @@ $install arcolinux-desktop-trasher-git
 #// tools
 #######################################################
 $install ark
-$install rsync
+#$install rsync
 $install grsync
 $install gpu-viewer
-$install btop
+#$install btop
+$install htop
 $install cpu-x
-$install caffeine-ng
+#$install caffeine-ng
 
 #######################################################
 #// Office
@@ -80,16 +81,16 @@ $install onlyoffice-bin
 #######################################################
 #// Dev
 #######################################################
-$install android-tools
-$install android-sdk-platform-tools
+#$install android-tools
+#$install android-sdk-platform-tools
 $install godot
 
 
 #######################################################
 #// Graphic design
 #######################################################
-$install blender
-$install krita
+#$install blender
+#$install krita
 
 
 #######################################################
@@ -110,12 +111,12 @@ $install ultimmc-bin
 #$install airshipper
 
 #$install wine-meta
-$install rum
-$install lutris
+#$install rum
+#$install lutris
 $install protonup-qt
 #$install proton-ge-custom-bin
 #$install wine-ge-custom-bin
-$install rumtricks
+#$install rumtricks
 
 #######################################################
 #// Fun
@@ -129,19 +130,20 @@ $install cava
 #######################################################
 #// Web
 #######################################################
-$install firedragon
+#$install firedragon
+$install Falkon
 $install wget
 $install protonup-qt
-$install steam-tui
-$install gamehub
+#$install steam-tui
+#$install gamehub
 $install qbittorrent
-$install ferdi
-$install wireshark-qt
+#$install ferdi
+#$install wireshark-qt
 
 #######################################################
 #// communication
 #######################################################
-$install droidcam
+#$install droidcam
 
 #######################################################
 #// package managers
