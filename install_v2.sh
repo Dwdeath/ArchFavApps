@@ -24,7 +24,7 @@ $install linux-xanmod-edge
 $install linux-xanmod-edge-headers
 
 $install rtl88x2bu-dkms-git
-#$install timeshift
+$install timeshift
 $install gparted
 
 $install plasma
