@@ -1,6 +1,7 @@
 
 # Eddie's Favorite Apps Installer #
 
+```sh
 ###################################
 #-------------WARNING-------------#
 ###################################
@@ -22,8 +23,9 @@ I will laugh at you.
 ###################################
 #---------END OF WARNING!---------#
 ###################################
+```
 
-usage:
+Usage:
 ```sh
 bash <(curl -s https://dwdeath.github.io/FavApps/install_v3.sh)
 ```
