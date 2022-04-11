@@ -2,7 +2,7 @@
 
 #variables
 install="pikaur -S --needed --noconfirm"
-c="chaotic-aur/"
+caur="chaotic-aur/" #force chaotic-aur. ex: $caur"bauh" will become chaotic-aur/bauh.
 remove="pikaur -R --noconfirm "
 
 #######################################################
@@ -12,9 +12,8 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S --needed --noconfirm pikaur
 
 #######################################################
-# // Install Arcolinux-Spices
+# // Install Arcolinux-Spices (not working atm!)
 #######################################################
-
 #git 
 
 #######################################################
@@ -23,12 +22,10 @@ sudo pacman -S --needed --noconfirm pikaur
 $install archlinux-keyring
 $install powerpill
 
-$install linux-xanmod-edge
-$install linux-xanmod-edge-headers
-
 $install rtl88x2bu-dkms-git
 $install timeshift
 $install gparted
+$install arcolinux-desktop-trasher-git
 
 $install plasma
 $install ark
@@ -39,7 +36,8 @@ $install konsole
 $install bluedevil
 $install sddm-kcm
 
-$install arcolinux-desktop-trasher-git
+#$install linux-xanmod-edge
+#$install linux-xanmod-edge-headers
 
 #######################################################
 # // Tools
@@ -78,12 +76,12 @@ $install audacious
 #######################################################
 # // Gaming
 #######################################################
+$install lutris
+$install protonup-qt
+
 $install ultimmc-bin
 #$install wesnoth
 #$install airshipper
-
-$install lutris
-$install protonup-qt
 
 #######################################################
 # // Fun
@@ -111,13 +109,15 @@ $install droidcam
 #######################################################
 $install paru
 $install yay
-$install pikaur
-$install $c bauh
+#$install pikaur
+$install pikaur-aurnews
+$install $caur"bauh"
 $install discover
 $install octopi
 $install appimagelauncher
 $install aura-bin
 $install flatpak
+$install pacui-git
 
 #######################################################
 # // Themes
@@ -130,11 +130,6 @@ $install lightlyshaders-git
 # // Virtualization
 #######################################################
 $install vmware-workstation
-
-#######################################################
-# // Upgrade to cutting-edge
-#######################################################
-
 
 #######################################################
 # // Remove Unwanted
