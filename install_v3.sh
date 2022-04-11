@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 #variables
-install="sudo pacman -S --needed --noconfirm"
-remove="sudo pacman -R --noconfirm"
+install="sudo pacman -S --needed --noconfirm "
+remove="sudo pacman -R --noconfirm "
 
 #######################################################
 # // Update the system
@@ -76,7 +76,7 @@ $install audacious
 #######################################################
 # // Gaming
 #######################################################
-$install ultimmc-bin
+$installultimmc-bin
 #$install wesnoth
 #$install airshipper
 
