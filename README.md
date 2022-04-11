@@ -1,8 +1,9 @@
-###################################
-# Eddie's Favorite Apps Installer #
-###################################
 
---WARNING--
+# Eddie's Favorite Apps Installer #
+
+###################################
+#-------------WARNING-------------#
+###################################
 This script is not for public use.
 If you do not know who I am or what
 this page is, DO NOT run this on your system!
@@ -18,7 +19,9 @@ and using it on any other system WILL MESS IT UP.
 any damage done to your system,
 I will laugh at you.
 
---END OF WARNING--
+###################################
+#---------END OF WARNING!---------#
+###################################
 
 usage:
 ```sh
