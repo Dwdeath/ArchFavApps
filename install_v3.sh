@@ -2,6 +2,7 @@
 
 #variables
 install="sudo pacman -S --needed --noconfirm"
+remove="sudo pacman -R --noconfirm"
 
 #######################################################
 # // Update the system
@@ -127,6 +128,11 @@ $install lightlyshaders-git
 # // Virtualization
 #######################################################
 $install vmware-workstation
+
+#######################################################
+# // Remove Unwanted
+#######################################################
+$remove vlc
 
 #######################################################
 # //shut the system down when finished
