@@ -4,18 +4,18 @@
 install="sudo pacman -S --needed --noconfirm"
 
 #######################################################
-echo "Update the system"
+# // Update the system
 #######################################################
 sudo pacman -Syu --needed --noconfirm
 
 #######################################################
-#//Install Arcolinux-Spices
+# // Install Arcolinux-Spices
 #######################################################
 
 #git 
 
 #######################################################
-#// system
+# // System
 #######################################################
 $install archlinux-keyring
 $install powerpill
@@ -39,7 +39,7 @@ $install sddm-kcm
 $install arcolinux-desktop-trasher-git
 
 #######################################################
-#// Tools
+# // Tools
 #######################################################
 $install ark
 $install grsync
@@ -48,32 +48,32 @@ $install htop
 $install cpu-x
 
 #######################################################
-#// Office
+# // Office
 #######################################################
 $install onlyoffice-bin
 
 #######################################################
-#// Development
+# // Development
 #######################################################
 $install android-tools
 $install android-sdk-platform-tools
 $install godot
 
 #######################################################
-#// Graphic Design
+# // Graphic Design
 #######################################################
 $install blender
 $install krita
 
 #######################################################
-#// Media
+# // Media
 #######################################################
 $install ums
 $install smplayer
 $install audacious
 
 #######################################################
-#// Gaming
+# // Gaming
 #######################################################
 $install ultimmc-bin
 #$install wesnoth
@@ -83,14 +83,14 @@ $install lutris
 $install protonup-qt
 
 #######################################################
-#// Fun
+# // Fun
 #######################################################
 $install hollywood
 $install ruffle
 $install cava
 
 #######################################################
-#// Web
+# // Web
 #######################################################
 $install firedragon
 $install wget
@@ -99,12 +99,12 @@ $install qbittorrent
 $install wireshark-qt
 
 #######################################################
-#// Communication
+# // Communication
 #######################################################
 $install droidcam
 
 #######################################################
-#// Package Managers
+# // Package Managers
 #######################################################
 $install paru
 $install yay
@@ -117,18 +117,18 @@ $install aura-bin
 $install flatpak
 
 #######################################################
-#// Themes
+# // Themes
 #######################################################
 $install variety
 $install latte-dock
 $install lightlyshaders-git
 
 #######################################################
-#// Virtualization
+# // Virtualization
 #######################################################
 $install vmware-workstation
 
 #######################################################
-#//shut the system down when finished
+# //shut the system down when finished
 #######################################################
 shutdown now
