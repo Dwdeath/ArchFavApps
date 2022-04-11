@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
 #variables
-install="sudo pacman -S --needed --noconfirm "
-remove="sudo pacman -R --noconfirm "
+install="pikaur -S --needed --noconfirm"
+c="chaotic-aur/"
+remove="pikaur -R --noconfirm "
 
 #######################################################
-# // Update the system
+# // Update the system and install pikaur
 #######################################################
-sudo pacman -Syu --needed --noconfirm
+sudo pacman -Syu --noconfirm
+sudo pacman -S --needed --noconfirm pikaur
 
 #######################################################
 # // Install Arcolinux-Spices
@@ -76,7 +78,7 @@ $install audacious
 #######################################################
 # // Gaming
 #######################################################
-$installultimmc-bin
+$install ultimmc-bin
 #$install wesnoth
 #$install airshipper
 
@@ -110,7 +112,7 @@ $install droidcam
 $install paru
 $install yay
 $install pikaur
-$install bauh
+$install $c bauh
 $install discover
 $install octopi
 $install appimagelauncher
@@ -128,6 +130,11 @@ $install lightlyshaders-git
 # // Virtualization
 #######################################################
 $install vmware-workstation
+
+#######################################################
+# // Upgrade to cutting-edge
+#######################################################
+
 
 #######################################################
 # // Remove Unwanted
