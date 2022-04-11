@@ -16,5 +16,3 @@ alternatively you can preform
 git clone https://github.com/Dwdeath/FavApps
 ```
 to get all of the scripts.
-
-and enter your password
