@@ -34,6 +34,8 @@ $install kate
 $install kcalc
 $install konsole
 $install bluedevil
+$install bluez
+$install bluez-utils
 $install sddm-kcm
 
 #$install linux-xanmod-edge
