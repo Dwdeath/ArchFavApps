@@ -19,6 +19,7 @@ sudo pacman -S --needed --noconfirm pikaur
 #######################################################
 # // System
 #######################################################
+$install reflector-mirrorlist-update
 $install archlinux-keyring
 $install powerpill
 
@@ -40,6 +41,8 @@ $install sddm-kcm
 
 #$install linux-xanmod-edge
 #$install linux-xanmod-edge-headers
+
+$install shiny-mirrors
 
 #######################################################
 # // Tools
