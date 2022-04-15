@@ -2,6 +2,7 @@
 
 #variables
 install="pikaur -S --needed --noconfirm"
+f_install="flatpak install --noconfirm"
 caur="chaotic-aur/" #force chaotic-aur. ex: $caur"bauh" will become chaotic-aur/bauh.
 remove="pikaur -R --noconfirm "
 
@@ -114,7 +115,8 @@ $install wget
 $install protonup-qt
 #$install qbittorrent
 $install wireshark-qt
-flatpak install flathub org.qbittorrent.qBittorrent
+
+$f_install org.qbittorrent.qBittorrent
 
 #######################################################
 # // Security
