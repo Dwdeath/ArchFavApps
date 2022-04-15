@@ -51,6 +51,7 @@ $install ark
 $install grsync
 $install gpu-viewer
 $install htop
+$install btop
 $install cpu-x
 
 #######################################################
