@@ -112,8 +112,9 @@ $install cava
 $install firedragon
 $install wget
 $install protonup-qt
-$install qbittorrent
+#$install qbittorrent
 $install wireshark-qt
+flatpak install flathub org.qbittorrent.qBittorrent
 
 #######################################################
 # // Security
