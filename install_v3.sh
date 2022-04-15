@@ -88,6 +88,10 @@ $install audacious
 #######################################################
 $install lutris
 $install protonup-qt
+$install vkbasalt
+$install plasma-gamemode-git
+$install gwe
+$install goverlay
 
 $install ultimmc-bin
 #$install wesnoth
