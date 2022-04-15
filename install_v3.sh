@@ -43,6 +43,7 @@ $install sddm-kcm
 #$install linux-xanmod-edge-headers
 
 $install shiny-mirrors
+$install pacfinder
 
 #######################################################
 # // Tools
