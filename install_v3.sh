@@ -2,7 +2,7 @@
 
 #variables
 install="pikaur -S --needed --noconfirm"
-f_install="flatpak install flathub --noninteractive"
+f_install="flatpak install flathub --noninteractive --user"
 caur="chaotic-aur/" #force chaotic-aur. ex: $caur"bauh" will become chaotic-aur/bauh.
 remove="pikaur -R --noconfirm "
 
