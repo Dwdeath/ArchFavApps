@@ -116,7 +116,7 @@ $install protonup-qt
 #$install qbittorrent
 $install wireshark-qt
 
-$f_install org.qbittorrent.qBittorrent
+$f_install qbittorrent
 
 #######################################################
 # // Security
