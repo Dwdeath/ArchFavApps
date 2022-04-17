@@ -83,6 +83,7 @@ $f_install godot
 $f_install blender
 #$f_install krita
 $f_install gimp
+$f_install photopea
 
 #######################################################
 # // Media
