@@ -177,9 +177,11 @@ $remove vlc
 #######################################################
 # // Transform GIMP into PHOTOGIMP
 #######################################################
-wget -c "$URL_PHOTOGIMP"      -P "$DIRETORIO_DOWNLOADS"
-unzip $DIRETORIO_DOWNLOADS/PhotoGIMP.by.Diolinux.v2020.for.Flatpak.zip
-cd $DIRETORIO_DOWNLOADS/'PhotoGIMP by Diolinux v2020 for Flatpak'/
+URL_PHOTOGIMP="https://github.com/Diolinux/PhotoGIMP/releases/download/1.0/PhotoGIMP.by.Diolinux.v2020.for.Flatpak.zip"
+
+wget -c "$URL_PHOTOGIMP"      -P "$HOME/Downloads/pg"
+unzip $HOME/Downloads/pg/PhotoGIMP.by.Diolinux.v2020.for.Flatpak.zip
+cd $HOME/Downloads/pg/'PhotoGIMP by Diolinux v2020 for Flatpak'/
 cp -R .local/ .var/ .icons/ /home/$USER/
 
 #######################################################
