@@ -175,9 +175,14 @@ $install vmware-workstation
 $remove vlc
 
 #######################################################
-# // Transform GIMP into PHOTOGIMP
+# // Transform GIMP into PHOTOGIMP (test)
 #######################################################
 bash <(curl -s https://raw.githubusercontent.com/cttynul/gimpshop-reloaded/master/linux-install-2.10.sh)
+
+#######################################################
+# // change some settings
+#######################################################
+#sudo systemctl enable lightdm
 
 #######################################################
 # //shut the system down when finished
