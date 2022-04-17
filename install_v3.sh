@@ -57,6 +57,8 @@ $install htop
 $install btop
 $install cpu-x
 
+$f_install wallpaper downloader
+
 #######################################################
 # // Security
 #######################################################
@@ -72,13 +74,14 @@ $install onlyoffice-bin
 #######################################################
 $install android-tools
 $install android-sdk-platform-tools
-$install godot
+$f_install godot
 
 #######################################################
 # // Graphic Design
 #######################################################
-$install blender
-$install krita
+$f_install blender
+#$f_install krita
+$f_install gimp
 
 #######################################################
 # // Media
@@ -86,6 +89,8 @@ $install krita
 $install ums
 $install smplayer
 $install audacious
+
+$f_install hbud
 
 #######################################################
 # // Gaming
@@ -98,10 +103,12 @@ $install gwe
 $install goverlay
 
 $install ultimmc-bin
-#$install wesnoth
-#$install airshipper
+#$f_install wesnoth
+#f_$install airshipper
 
 $f_install ryujinx
+$f_install rpcs3
+$f_install retroarch
 
 #######################################################
 # // Fun
@@ -109,6 +116,7 @@ $f_install ryujinx
 $install hollywood
 $install ruffle
 $install cava
+$f_install discord
 
 #######################################################
 # // Web
@@ -139,7 +147,7 @@ $install yay
 #$install pikaur
 $install pikaur-aurnews
 $install $caur"bauh"
-$install discover
+#$install discover
 $install octopi
 $install appimagelauncher
 $install aura-bin
