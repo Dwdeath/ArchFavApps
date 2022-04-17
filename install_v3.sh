@@ -175,6 +175,14 @@ $install vmware-workstation
 $remove vlc
 
 #######################################################
+# // Transform GIMP into PHOTOGIMP
+#######################################################
+wget -c "$URL_PHOTOGIMP"      -P "$DIRETORIO_DOWNLOADS"
+unzip $DIRETORIO_DOWNLOADS/PhotoGIMP.by.Diolinux.v2020.for.Flatpak.zip
+cd $DIRETORIO_DOWNLOADS/'PhotoGIMP by Diolinux v2020 for Flatpak'/
+cp -R .local/ .var/ .icons/ /home/$USER/
+
+#######################################################
 # //shut the system down when finished
 #######################################################
 shutdown now
