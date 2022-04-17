@@ -24,6 +24,7 @@ $install reflector-mirrorlist-update
 $install archlinux-keyring
 $install powerpill
 $install flatpak
+$f_install logs
 
 $install rtl88x2bu-dkms-git
 $install timeshift
