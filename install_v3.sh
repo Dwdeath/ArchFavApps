@@ -23,6 +23,7 @@ sudo pacman -S --needed --noconfirm pikaur
 $install reflector-mirrorlist-update
 $install archlinux-keyring
 $install powerpill
+$install flatpak
 
 $install rtl88x2bu-dkms-git
 $install timeshift
@@ -99,6 +100,8 @@ $install goverlay
 $install ultimmc-bin
 #$install wesnoth
 #$install airshipper
+
+$f_install ryujinx
 
 #######################################################
 # // Fun
