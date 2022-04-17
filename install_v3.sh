@@ -111,6 +111,7 @@ $install ultimmc-bin
 $f_install ryujinx
 $f_install rpcs3
 $f_install retroarch
+$f_install q4wine
 
 #######################################################
 # // Fun
