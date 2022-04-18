@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 #variables
-install="pikaur -S --needed --noconfirm"
-f_install="flatpak install --noninteractive --user"
+install="pikaur -S --needed --noconfirm "
+f_install="flatpak install --noninteractive "
 caur="chaotic-aur/" #force chaotic-aur. ex: $caur"bauh" will become chaotic-aur/bauh.
 laur="aur/" #force aur. ex: $laur"bauh" will become aur/bauh.
 remove="pikaur -R --noconfirm "
