@@ -77,6 +77,7 @@ $install onlyoffice-bin
 $install android-tools
 $install android-sdk-platform-tools
 $f_install godot
+$install flatpak-builder
 
 #######################################################
 # // Graphic Design
