@@ -186,6 +186,7 @@ $install vmware-workstation
 # // Remove Unwanted
 #######################################################
 $remove vlc
+$remove firefox
 
 #######################################################
 # // Transform GIMP into PHOTOGIMP (test)
