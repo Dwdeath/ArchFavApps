@@ -108,6 +108,10 @@ $install plasma-gamemode-git
 $install gwe
 $install goverlay
 
+$install winegui
+
+$f_install org.phoenicis.playonlinux #playonlinux
+
 $install ultimmc-bin
 #$f_install app/org.wesnoth.Wesnoth/x86_64/stable
 #f_$install app/net.veloren.airshipper/x86_64/stable
@@ -115,7 +119,7 @@ $install ultimmc-bin
 $f_install org.ryujinx.Ryujinx/x86_64/stable #ryujinx
 $f_install net.rpcs3.RPCS3/x86_64/stable #rpcs3
 $f_install org.libretro.RetroArch/x86_64/stable #retroarch
-$f_install ua.org.brezblock.q4wine/x86_64/stable #q4wine
+$f_install ua.org.brezblock.q4/x86_64/stable #q4wine
 
 #######################################################
 # // Fun
