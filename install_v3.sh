@@ -2,7 +2,7 @@
 
 #variables
 install="pikaur -S --needed --noconfirm"
-f_install="flatpak install flathub --noninteractive --user"
+f_install="flatpak install --noninteractive --user"
 caur="chaotic-aur/" #force chaotic-aur. ex: $caur"bauh" will become chaotic-aur/bauh.
 laur="aur/" #force aur. ex: $laur"bauh" will become aur/bauh.
 remove="pikaur -R --noconfirm "
@@ -25,7 +25,7 @@ $install reflector-mirrorlist-update
 $install archlinux-keyring
 $install powerpill
 $install flatpak
-$f_install app/org.gnome.Logs/x86_64/stable #logs
+$f_install org.gnome.Logs/x86_64/stable #logs
 
 $install rtl88x2bu-dkms-git
 $install timeshift
@@ -59,7 +59,8 @@ $install htop
 $install btop
 $install cpu-x
 
-$f_install wallpaper downloader
+$f_install io.github.antimicrox.antimicrox/x86_64/stable #AntiMicroX
+$f_install es.estoes.wallpaperDownloader/x86_64/stable #wallpaper downloader
 
 #######################################################
 # // Security
@@ -76,17 +77,17 @@ $install onlyoffice-bin
 #######################################################
 #$install android-tools
 #$install android-sdk-platform-tools
-$f_install app/com.google.AndroidStudio/x86_64/stable #Android SDK
-$f_install app/org.godotengine.Godot/x86_64/stable #godot
+$f_install com.google.AndroidStudio/x86_64/stable #Android SDK
+$f_install org.godotengine.Godot/x86_64/stable #godot
 $install flatpak-builder
 
 #######################################################
 # // Graphic Design
 #######################################################
-$f_install app/org.blender.Blender #blender
+$f_install org.blender.Blender/x86_64/stable #blender
 #$f_install krita
-$f_install app/org.gimp.GIMP/x86_64/stable #gimp
-$f_install app/com.github.vikdevelop.photopea_app/x86_64/stable #photopea
+$f_install org.gimp.GIMP/x86_64/stable #gimp
+$f_install com.github.vikdevelop.photopea_app/x86_64/stable #photopea
 
 #######################################################
 # // Media
@@ -95,7 +96,7 @@ $install ums
 $install smplayer
 $install audacious
 
-$f_install app/io.github.swanux.hbud/x86_64/stable #hbud
+$f_install io.github.swanux.hbud/x86_64/stable #hbud
 
 #######################################################
 # // Gaming
@@ -111,10 +112,10 @@ $install ultimmc-bin
 #$f_install app/org.wesnoth.Wesnoth/x86_64/stable
 #f_$install app/net.veloren.airshipper/x86_64/stable
 
-$f_install ryujinx
-$f_install rpcs3
-$f_install retroarch
-$f_install q4wine
+$f_install org.ryujinx.Ryujinx/x86_64/stable #ryujinx
+$f_install net.rpcs3.RPCS3/x86_64/stable #rpcs3
+$f_install org.libretro.RetroArch/x86_64/stable #retroarch
+$f_install ua.org.brezblock.q4wine/x86_64/stable #q4wine
 
 #######################################################
 # // Fun
@@ -122,7 +123,7 @@ $f_install q4wine
 $install hollywood
 $install ruffle
 $install cava
-$f_install app/com.discordapp.Discord/x86_64/stable #discord
+$f_install com.discordapp.Discord/x86_64/stable #discord
 
 #######################################################
 # // Web
