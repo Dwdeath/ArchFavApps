@@ -25,7 +25,7 @@ $install reflector-mirrorlist-update
 $install archlinux-keyring
 $install powerpill
 $install flatpak
-$f_install logs
+$f_install app/org.gnome.Logs/x86_64/stable #logs
 
 $install rtl88x2bu-dkms-git
 $install timeshift
@@ -74,18 +74,19 @@ $install onlyoffice-bin
 #######################################################
 # // Development
 #######################################################
-$install android-tools
-$install android-sdk-platform-tools
-$f_install godot
+#$install android-tools
+#$install android-sdk-platform-tools
+$f_install app/com.google.AndroidStudio/x86_64/stable #Android SDK
+$f_install app/org.godotengine.Godot/x86_64/stable #godot
 $install flatpak-builder
 
 #######################################################
 # // Graphic Design
 #######################################################
-$f_install blender
+$f_install app/org.blender.Blender #blender
 #$f_install krita
-$f_install gimp
-$f_install photopea
+$f_install app/org.gimp.GIMP/x86_64/stable #gimp
+$f_install app/com.github.vikdevelop.photopea_app/x86_64/stable #photopea
 
 #######################################################
 # // Media
@@ -94,7 +95,7 @@ $install ums
 $install smplayer
 $install audacious
 
-$f_install hbud
+$f_install app/io.github.swanux.hbud/x86_64/stable #hbud
 
 #######################################################
 # // Gaming
@@ -107,8 +108,8 @@ $install gwe
 $install goverlay
 
 $install ultimmc-bin
-#$f_install wesnoth
-#f_$install airshipper
+#$f_install app/org.wesnoth.Wesnoth/x86_64/stable
+#f_$install app/net.veloren.airshipper/x86_64/stable
 
 $f_install ryujinx
 $f_install rpcs3
@@ -121,7 +122,7 @@ $f_install q4wine
 $install hollywood
 $install ruffle
 $install cava
-$f_install discord
+$f_install app/com.discordapp.Discord/x86_64/stable #discord
 
 #######################################################
 # // Web
@@ -132,7 +133,7 @@ $install protonup-qt
 #$install qbittorrent
 $install wireshark-qt
 
-$f_install qbittorrent
+$f_install qbittorrent/x86_64/stable
 
 #######################################################
 # // Security
