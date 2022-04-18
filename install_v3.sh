@@ -122,6 +122,9 @@ $f_install ua.org.brezblock.q4/x86_64/stable #q4wine
 $install wine-tkg-fsync-git
 $install winegui
 
+#$f_install com.github.Anuken.Mindustry/x86_64/stable #Mindustry
+#$f_install com.moonlight_stream.Moonlight/x86_64/stable #Moonlight
+
 #######################################################
 # // Fun
 #######################################################
