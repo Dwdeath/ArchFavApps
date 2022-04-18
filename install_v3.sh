@@ -124,6 +124,7 @@ $install winegui
 
 #$f_install com.github.Anuken.Mindustry/x86_64/stable #Mindustry
 #$f_install com.moonlight_stream.Moonlight/x86_64/stable #Moonlight
+#$f_install org.openmw.OpenMW/x86_64/stable #OpenMW
 
 #######################################################
 # // Fun
