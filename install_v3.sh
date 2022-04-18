@@ -4,6 +4,7 @@
 install="pikaur -S --needed --noconfirm"
 f_install="flatpak install flathub --noninteractive --user"
 caur="chaotic-aur/" #force chaotic-aur. ex: $caur"bauh" will become chaotic-aur/bauh.
+laur="aur/" #force aur. ex: $laur"bauh" will become aur/bauh.
 remove="pikaur -R --noconfirm "
 
 #######################################################
@@ -42,8 +43,8 @@ $install bluez
 $install bluez-utils
 $install sddm-kcm
 
-#$install linux-xanmod-edge
-#$install linux-xanmod-edge-headers
+$install linux-tkg-pds
+$install linux-tkg-pds-headers
 
 $install shiny-mirrors
 $install pacfinder
