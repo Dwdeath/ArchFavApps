@@ -9,8 +9,8 @@ flatpak_list=https://raw.githubusercontent.com/Dwdeath/FavApps/main/flatpak_list
 
 # install pkg
 #yay -Sy $(awk '{print $1}' curl -s apps_list)
-$ awk '{print $1}'  $apps_list |  xargs pikaur -Sy
+#$ awk '{print $1}'  $apps_list |  xargs pikaur -Sy
 
 # install flatpak
 #flatpak install -y --user $(awk '{print $1}' curl -s flatpak_list)
-$ awk '{print $1}'  $input_file |  xargs flatpak install -y --user 
+$ awk '{print $1}'  $flatpak_list |  xargs flatpak install -y --user 
