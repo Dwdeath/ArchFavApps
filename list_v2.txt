@@ -62,3 +62,4 @@ rpcs3
 phoenicis-playonlinux
 airshipper-git
 android-sdk-platform-tools
+firectl
