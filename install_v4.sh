@@ -13,4 +13,4 @@ flatpak_list=https://raw.githubusercontent.com/Dwdeath/FavApps/main/flatpak_list
 
 # install flatpak
 #flatpak install -y --user $(awk '{print $1}' curl -s flatpak_list)
-$ awk '{print $1}'  $flatpak_list |  xargs flatpak install -y --user 
+$ awk '{print $1}'  $flatpak_list |  xargs flatpak install -y --user
