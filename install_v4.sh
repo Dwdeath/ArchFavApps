@@ -7,5 +7,5 @@ sudo pacman -S yay-bin --needed --noconfirm
 yay -S pikaur-aurnews --needed --noconfirm
 
 # install pkg
-#yay -Sy $(awk '{print $1}' curl -s apps_list)
-$ awk '{print $1}'  $apps_list |  xargs pikaur -Sy
+pikaur -Sy $(awk '{print $1}' curl -s apps_list)
+#$ awk '{print $1}'  $apps_list |  xargs pikaur -Sy
