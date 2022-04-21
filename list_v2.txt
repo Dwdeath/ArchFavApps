@@ -51,3 +51,14 @@ variety
 latte-dock
 lightlyshaders-git
 vmware-workstation
+qbittorrent
+blender
+gimp
+ryujinx-git
+retroarch
+wesnoth
+godot
+rpcs3
+phoenicis-playonlinux
+airshipper-git
+android-sdk-platform-tools
