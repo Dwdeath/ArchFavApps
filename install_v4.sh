@@ -1,6 +1,6 @@
 # set variables
-apps_list=https://raw.githubusercontent.com/Dwdeath/FavApps/main/list_v2.txt
-flatpak_list=https://raw.githubusercontent.com/Dwdeath/FavApps/main/flatpak_list_v2.txt
+apps_list="https://raw.githubusercontent.com/Dwdeath/FavApps/main/list_v2.txt"
+flatpak_list="https://raw.githubusercontent.com/Dwdeath/FavApps/main/flatpak_list_v2.txt"
 
 # update system
 #sudo pacman -Syu --needed --noconfirm
