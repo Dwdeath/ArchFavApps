@@ -1,6 +1,6 @@
 # set variables
 apps_list=https://dwdeath.github.io/FavApps/list_v2.txt
-flatpak_list=https://dwdeath.github.io/FavApps/flatpak_list_v2.txt
+flatpak_list=<(curl -s https://dwdeath.github.io/FavApps/flatpak_list_v2.txt)
 
 # update system
 #sudo pacman -Syu --needed --noconfirm
