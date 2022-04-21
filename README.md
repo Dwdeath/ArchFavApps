@@ -27,7 +27,7 @@ I will laugh at you.
 
 Usage:
 ```sh
-bash <(curl -s https://dwdeath.github.io/FavApps/install_v3.sh)
+bash <(curl -s https://dwdeath.github.io/FavApps/install_v4.sh)
 ```
 or
 ```sh
