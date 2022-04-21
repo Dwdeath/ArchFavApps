@@ -1,9 +1,15 @@
+# set variables
+apps_list=https://raw.githubusercontent.com/Dwdeath/FavApps/main/list_v2.txt
+flatpak_list=https://raw.githubusercontent.com/Dwdeath/FavApps/main/flatpak_list_v2.txt
+
 # update system
-sudo pacman -Syu
-sudo pacman -S yay
+sudo pacman -Syu --needed --noconfirm
+sudo pacman -S yay-bin --needed --noconfirm
+yay -S pikaur-aurnews --needed --noconfirm
 
 # install pkg
-yay -Sy $(awk '{print $1}' curl -s https://raw.githubusercontent.com/Dwdeath/FavApps/main/list_v2.txt)
+yay -Sy $(awk '{print $1}' curl -s apps_list)
+
 
 # install flatpak
-flatpak install -y --user $(awk '{print $1}' curl -s https://raw.githubusercontent.com/Dwdeath/FavApps/main/flatpak_list_v2.txt)
+flatpak install -y --user $(awk '{print $1}' curl -s flatpak_list)
