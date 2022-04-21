@@ -193,7 +193,7 @@ $remove firefox
 #######################################################
 # // Transform GIMP into PHOTOGIMP (test)
 #######################################################
-bash <(curl -s https://raw.githubusercontent.com/cttynul/gimpshop-reloaded/master/linux-install-2.10.sh)
+#bash <(curl -s https://raw.githubusercontent.com/cttynul/gimpshop-reloaded/master/linux-install-2.10.sh)
 
 #######################################################
 # // change some settings
