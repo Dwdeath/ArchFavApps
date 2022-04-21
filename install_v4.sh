@@ -1,9 +1,9 @@
 # update system
 sudo pacman -Syu
-sudo pacman -S pacui
+sudo pacman -S yay
 
 # install pkg
-pacui -Sy $(awk '{print $1}'  ./list_v2.txt)
+yay -Sy $(awk '{print $1}'  ./list_v2.txt)
 
 # install flatpak
-flatpak install --user --or-update -y $(awk '{print $1}'  ./flatpak_list_v2.txt)
+flatpak install -y --user $(awk '{print $1}'  ./flatpak_list_v2.txt)
