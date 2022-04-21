@@ -1,1 +1,1 @@
-pikaur
+pikaur -S $(awk '{print $1}'  list_v2.txt)
