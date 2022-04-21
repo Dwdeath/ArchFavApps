@@ -43,6 +43,8 @@ $install bluez
 $install bluez-utils
 $install sddm-kcm
 
+$install system-monitoring-center
+
 $install linux-tkg-pds
 $install linux-tkg-pds-headers
 
