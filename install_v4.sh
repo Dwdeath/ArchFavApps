@@ -4,7 +4,7 @@ apps_list=https://dwdeath.github.io/FavApps/list_v2.txt
 # update system
 sudo pacman -Syu --needed --noconfirm
 
-# remove Firefox
+# remove unwanted packages
 sudo pacman -R firefox
 sudo pacman -R vlc
 
