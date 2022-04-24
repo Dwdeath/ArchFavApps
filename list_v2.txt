@@ -63,3 +63,4 @@ airshipper-git
 android-sdk-platform-tools
 firectl
 tixati
+udeler
