@@ -1,4 +1,5 @@
 reflector-mirrorlist-update
+bauerbill
 archlinux-keyring
 powerpill
 flatpak
