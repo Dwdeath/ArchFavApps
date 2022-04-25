@@ -65,3 +65,4 @@ android-sdk-platform-tools
 firectl
 tixati
 udeler
+zap-bin
