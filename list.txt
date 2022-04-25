@@ -68,6 +68,7 @@
 
 
 // package managers
+zap-bin
 #yup-bin 
 #pikaur 
 #bauh 
