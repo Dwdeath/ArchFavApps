@@ -2,6 +2,7 @@ reflector-mirrorlist-update
 bauerbill
 archlinux-keyring
 powerpill
+pamac-gtk
 flatpak
 rtl88x2bu-dkms-git
 timeshift
