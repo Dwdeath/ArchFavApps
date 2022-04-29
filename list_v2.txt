@@ -5,6 +5,7 @@ powerpill
 pamac-gtk
 flatpak
 rtl88x2bu-dkms-git
+syncthingtray
 timeshift
 plasma-disks
 gparted
