@@ -6,6 +6,7 @@ pamac-gtk
 flatpak
 rtl88x2bu-dkms-git
 timeshift
+plasma-disks
 gparted
 arcolinux-desktop-trasher-git
 system-monitoring-center
