@@ -4,7 +4,7 @@ archlinux-keyring
 powerpill
 pamac-gtk
 flatpak
-rtl88x2bu-dkms-git
+rtl88x2bu-cilynx-dkms-git
 syncthingtray
 timeshift
 plasma-disks
