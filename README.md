@@ -27,11 +27,11 @@ I will laugh at you.
 
 Usage:
 ```sh
-bash <(curl -s https://dwdeath.github.io/FavApps/install_v4.sh)
+bash <(curl -s https://dwdeath.github.io/ArchFavApps/install_v4.sh)
 ```
 or
 ```sh
-curl -s https://dwdeath.github.io/FavApps/
+curl -s https://dwdeath.github.io/ArchFavApps/
 ```
 and run the bash code using copy+paste
 
@@ -39,6 +39,6 @@ THE SYSTEM WILL REBOOT AT THE END
 
 alternatively you can preform 
 ```sh
-git clone https://github.com/Dwdeath/FavApps
+git clone https://github.com/Dwdeath/ArchFavApps
 ```
 to get all of the scripts.
