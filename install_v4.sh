@@ -1,5 +1,5 @@
 # set variables
-apps_list=https://dwdeath.github.io/FavApps/list_v2.txt
+apps_list=https://dwdeath.github.io/ArchFavApps/list_v2.txt
 
 # update system
 sudo pacman -Syu --needed --noconfirm
