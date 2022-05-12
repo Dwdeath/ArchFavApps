@@ -4,6 +4,7 @@ archlinux-keyring
 powerpill
 pamac-gtk
 flatpak
+distrobox
 rtl88x2bu-cilynx-dkms-git
 syncthingtray
 timeshift
