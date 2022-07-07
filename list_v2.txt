@@ -71,3 +71,4 @@ tixati
 udeler
 zap-bin
 p7zip-gui
+portage-git
