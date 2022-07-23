@@ -1,4 +1,9 @@
 
+#this script is a work in progress and currently contains packages that are out of date, one of them (one of the audio players) is apperantly spyware.
+#do not use it, I'm updating soon to a safer version.
+
+#thank you for your patience.
+
 # Eddie's Favorite Apps Installer #
 
 ```sh
