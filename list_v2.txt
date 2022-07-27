@@ -10,6 +10,7 @@ latte-dock-git
 ntfs-3g
 micro
 alacritty
+xfce4-taskmanager
 file-roller
 qbittorrent-enhanced-qt5
 bauerbill
