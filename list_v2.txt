@@ -18,12 +18,12 @@ powerpill
 pamac-gtk
 flatpak
 bubblejail
+gimp
+krita
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-pipewire-support
-pipewire-v4l2
 pipewire-zeroconf
 distrobox
 rtl88x2bu-cilynx-dkms-git
