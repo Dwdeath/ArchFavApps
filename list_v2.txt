@@ -93,7 +93,7 @@ hblock
 firejail-pacman-hook
 bluedevil
 bluez
-
+calligra
 #phoenicis-playonlinux
 #p7zip-gui
 #plasma-disks
