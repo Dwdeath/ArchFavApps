@@ -16,6 +16,7 @@ bauerbill
 powerpill
 pamac-gtk
 flatpak
+bubblejail
 pipewire
 pipewire-alsa
 pipewire-jack
