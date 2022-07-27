@@ -18,7 +18,6 @@ powerpill
 pamac-gtk
 flatpak
 bubblejail
-gimp
 krita
 pipewire
 pipewire-alsa
