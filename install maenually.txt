@@ -1,0 +1,2 @@
+https://github.com/Zren/plasma-applet-tiledmenu
+
