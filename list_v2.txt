@@ -107,3 +107,4 @@ calligra
 #aura-bin
 #kwinft-git 
 steamtinkerlaunch
+gameconqueror
