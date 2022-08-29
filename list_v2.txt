@@ -106,3 +106,4 @@ calligra
 #audacious
 #aura-bin
 #kwinft-git 
+steamtinkerlaunch
