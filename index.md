@@ -10,7 +10,7 @@ If you do not know who I am or what this code does, DO NOT RUN IT!!!
  
 to get the apps I use and some of my settings ,simply copy this line: 
  
-bash <(curl -s https://dwdeath.github.io/ArchFavApps/install_v4.md) 
- 
-and run. 
+curl -s https://dwdeath.github.io/ArchFavApps/install_v4.md | sh
+
+And run. 
 
