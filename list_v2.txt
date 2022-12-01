@@ -108,4 +108,5 @@ calligra
 #kwinft-git 
 steamtinkerlaunch
 gameconqueror
-lrzip
+#lrzip
+rzip
