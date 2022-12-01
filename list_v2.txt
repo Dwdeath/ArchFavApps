@@ -110,3 +110,4 @@ steamtinkerlaunch
 gameconqueror
 #lrzip
 rzip
+btfs-git
