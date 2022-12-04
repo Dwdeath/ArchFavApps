@@ -109,7 +109,15 @@ calligra
 steamtinkerlaunch
 gameconqueror
 #lrzip
-rzip
+#rzip
+bzip2
 btfs-git
+# gaming
 gamemode
 lib32-gamemode-git
+# test (gaming)
+wine
+wine64
+wine32
+winbind
+winetricks
