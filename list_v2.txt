@@ -111,3 +111,5 @@ gameconqueror
 #lrzip
 rzip
 btfs-git
+gamemode
+lib32-gamemode-git
