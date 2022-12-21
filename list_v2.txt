@@ -123,3 +123,4 @@ winbind
 winetricks
 #genisoimage
 zramd
+zram-swap-git
