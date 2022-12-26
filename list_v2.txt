@@ -125,3 +125,4 @@ winetricks
 zramd
 zram-swap-git
 brisk-menu
+aconfmgr
