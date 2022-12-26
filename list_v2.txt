@@ -124,3 +124,4 @@ winetricks
 #genisoimage
 zramd
 zram-swap-git
+brisk-menu
