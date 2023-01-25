@@ -127,3 +127,4 @@ zram-swap-git
 brisk-menu
 aconfmgr-git
 ksuperkey
+gpu-passthrough-manager
