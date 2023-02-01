@@ -128,3 +128,4 @@ brisk-menu
 aconfmgr-git
 ksuperkey
 gpu-passthrough-manager
+wine-gui-git
