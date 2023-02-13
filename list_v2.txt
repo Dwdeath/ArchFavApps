@@ -126,6 +126,7 @@ zramd
 zram-swap-git
 brisk-menu
 aconfmgr-git
-ksuperkey
+#ksuperkey
 gpu-passthrough-manager
 wine-gui-git
+xfce4-superkey-git
