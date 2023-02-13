@@ -129,4 +129,4 @@ aconfmgr-git
 #ksuperkey
 gpu-passthrough-manager
 wine-gui-git
-xfce4-superkey-git
+#xfce4-superkey-git
