@@ -130,3 +130,8 @@ aconfmgr-git
 gpu-passthrough-manager
 wine-gui-git
 #xfce4-superkey-git
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+xfce4-clipman-plugin
+xfce4-xkb-plugin
+xfce4-mount-plugin 
