@@ -5,4 +5,4 @@ apx
 xdtool
 plasma-desktop
 
-lutris-wine
+lutris-wine-git
