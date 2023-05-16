@@ -1,0 +1,8 @@
+distrobox
+docker-podman
+apx
+
+xdtool
+plasma-desktop
+
+lutris-wine
